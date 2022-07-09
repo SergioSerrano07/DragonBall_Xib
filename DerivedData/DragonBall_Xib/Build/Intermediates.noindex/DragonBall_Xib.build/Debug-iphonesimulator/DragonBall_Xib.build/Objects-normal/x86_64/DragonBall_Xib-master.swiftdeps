@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1657369962, 547182083]
+build_end_time: [1657369962, 956583976]
+inputs:
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/AppDelegate.swift": [1657362913, 38398265]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/FirstViewController.swift": [1657369962, 290396690]
+  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/SecondViewController.swift"
+  : [1657366917, 624988317]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657366488, 920948505]

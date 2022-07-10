@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAB5C43828799F84004F438C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5C43628799F84004F438C /* SecondViewController.swift */; };
-		AAB5C43928799F84004F438C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB5C43728799F84004F438C /* SecondViewController.xib */; };
+		AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A342879CA68006222C4 /* HeoresTableViewController.swift */; };
+		AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A352879CA68006222C4 /* HeoresTableViewController.xib */; };
+		AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A382879CAEA006222C4 /* TableViewCell.swift */; };
+		AA257A3B2879CAEA006222C4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A392879CAEA006222C4 /* TableViewCell.xib */; };
+		AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A3D2879D54C006222C4 /* DetailViewController.swift */; };
+		AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A3E2879D54C006222C4 /* DetailViewController.xib */; };
+		AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367A287B312C00C41669 /* HeroModel.swift */; };
+		AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */; };
 		AAE8A97328799161005176FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A97228799161005176FA /* AppDelegate.swift */; };
 		AAE8A97528799161005176FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A97428799161005176FA /* SceneDelegate.swift */; };
 		AAE8A97C28799163005176FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97B28799163005176FA /* Assets.xcassets */; };
@@ -38,8 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAB5C43628799F84004F438C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		AAB5C43728799F84004F438C /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		AA257A342879CA68006222C4 /* HeoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeoresTableViewController.swift; sourceTree = "<group>"; };
+		AA257A352879CA68006222C4 /* HeoresTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeoresTableViewController.xib; sourceTree = "<group>"; };
+		AA257A382879CAEA006222C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AA257A392879CAEA006222C4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		AA257A3D2879D54C006222C4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AA257A3E2879D54C006222C4 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		AAA3367A287B312C00C41669 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		AAE8A96F28799161005176FA /* DragonBall_Xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall_Xib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE8A97228799161005176FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE8A97428799161005176FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA257A3C2879D4C5006222C4 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AA257A392879CAEA006222C4 /* TableViewCell.xib */,
+				AA257A382879CAEA006222C4 /* TableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		AAB5C43A2879A481004F438C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAA3367A287B312C00C41669 /* HeroModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,8 +112,10 @@
 		AAB5C43B2879A489004F438C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AAB5C43728799F84004F438C /* SecondViewController.xib */,
+				AA257A3C2879D4C5006222C4 /* TableView */,
 				AAE8A9A32879935F005176FA /* FirstViewController.xib */,
+				AA257A352879CA68006222C4 /* HeoresTableViewController.xib */,
+				AA257A3E2879D54C006222C4 /* DetailViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,7 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				AAE8A9A22879935F005176FA /* FirstViewController.swift */,
-				AAB5C43628799F84004F438C /* SecondViewController.swift */,
+				AA257A342879CA68006222C4 /* HeoresTableViewController.swift */,
+				AA257A3D2879D54C006222C4 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,13 +154,14 @@
 			isa = PBXGroup;
 			children = (
 				AAB5C43A2879A481004F438C /* Model */,
-				AAB5C43B2879A489004F438C /* Views */,
 				AAB5C43C2879A491004F438C /* Controllers */,
+				AAB5C43B2879A489004F438C /* Views */,
 				AAE8A97228799161005176FA /* AppDelegate.swift */,
 				AAE8A97428799161005176FA /* SceneDelegate.swift */,
 				AAE8A97B28799163005176FA /* Assets.xcassets */,
 				AAE8A97D28799163005176FA /* LaunchScreen.storyboard */,
 				AAE8A98028799163005176FA /* Info.plist */,
+				AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */,
 			);
 			path = DragonBall_Xib;
 			sourceTree = "<group>";
@@ -261,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB5C43928799F84004F438C /* SecondViewController.xib in Resources */,
+				AA257A3B2879CAEA006222C4 /* TableViewCell.xib in Resources */,
+				AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */,
+				AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */,
 				AAE8A97F28799163005176FA /* LaunchScreen.storyboard in Resources */,
 				AAE8A9A52879935F005176FA /* FirstViewController.xib in Resources */,
 				AAE8A97C28799163005176FA /* Assets.xcassets in Resources */,
@@ -289,9 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB5C43828799F84004F438C /* SecondViewController.swift in Sources */,
+				AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */,
 				AAE8A9A42879935F005176FA /* FirstViewController.swift in Sources */,
+				AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */,
+				AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */,
+				AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */,
 				AAE8A97328799161005176FA /* AppDelegate.swift in Sources */,
+				AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */,
 				AAE8A97528799161005176FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

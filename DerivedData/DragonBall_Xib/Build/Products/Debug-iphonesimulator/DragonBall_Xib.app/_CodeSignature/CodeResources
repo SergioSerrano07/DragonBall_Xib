@@ -28,9 +28,17 @@
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
 		</data>
+		<key>DetailViewController.nib</key>
+		<data>
+		+B8kBreX6tMunNiOVwPXpKORlDo=
+		</data>
 		<key>FirstViewController.nib</key>
 		<data>
-		sokDs4Tv3t5ab9QYBK51/+dt0Ow=
+		IOa26hIFvXTLlQTW15YirIrW7pY=
+		</data>
+		<key>HeoresTableViewController.nib</key>
+		<data>
+		poq3xXBYXUiLXneDj+dPo5jp0V8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -40,9 +48,9 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>SecondViewController.nib</key>
+		<key>TableViewCell.nib</key>
 		<data>
-		c60MASinIJpLBFQjBbvRPyCB3vU=
+		e85Zvjl5RHfHtXihJhUbZ1D5QyQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,18 +97,32 @@
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
 			</data>
 		</dict>
+		<key>DetailViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f7gYjzKfg2DRLcJAWjupzcJqO0KbFszFe+bAM451IbE=
+			</data>
+		</dict>
 		<key>FirstViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJ+8iYCHBmZ/8Ke5V2Qkerpdh2wkr8Frya0I8hbdmLs=
+			YTdQ7vIyYsS/ZvGsZ5qlxZ6SkXyryj7TnAhdCLI9300=
 			</data>
 		</dict>
-		<key>SecondViewController.nib</key>
+		<key>HeoresTableViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BFCaX7toEr8KhWzRGoqzMT1Pb4X4JUrFGLEGVXCUMo=
+			hsc4SSHsOCdxmgSfZPYye9RTeYH1r8Xd+qCTl368mIk=
+			</data>
+		</dict>
+		<key>TableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gQuff3Np5/ZXIgcAWax2d7iWJ7jTgXChRXk0ioQsXjQ=
 			</data>
 		</dict>
 	</dict>

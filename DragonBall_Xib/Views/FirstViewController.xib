@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="DragonBall_Xib" customModuleProvider="target">
             <connections>
+                <outlet property="passwordTextField" destination="iIY-sO-xBr" id="AO8-0x-EzM"/>
+                <outlet property="userTextField" destination="dWr-ns-hhn" id="uiM-3u-WI2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -42,7 +44,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Entrar"/>
                     <connections>
-                        <action selector="onButtonTap:" destination="-1" eventType="touchUpInside" id="vbl-i8-X1q"/>
+                        <action selector="onLoginTap:" destination="-1" eventType="touchUpInside" id="uHJ-M4-hz4"/>
                     </connections>
                 </button>
             </subviews>
@@ -61,7 +63,7 @@
                 <constraint firstItem="iIY-sO-xBr" firstAttribute="centerX" secondItem="0i2-tX-kaN" secondAttribute="centerX" id="zJp-5a-Uxt"/>
                 <constraint firstItem="0i2-tX-kaN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zyt-wx-BNs"/>
             </constraints>
-            <point key="canvasLocation" x="-94" y="-13"/>
+            <point key="canvasLocation" x="-749" y="-23"/>
         </view>
     </objects>
     <resources>

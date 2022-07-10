@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>009935F9-AD87-44ED-8A24-0C536420C0AA</key>
+		<key>20219AB9-2EC2-4FF0-A702-91260FE5D3F5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>009935F9-AD87-44ED-8A24-0C536420C0AA.xcactivitylog</string>
+			<string>20219AB9-2EC2-4FF0-A702-91260FE5D3F5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679056771.65303898</real>
+			<real>679161210.74026704</real>
 			<key>timeStoppedRecording</key>
-			<real>679056772.83596206</real>
+			<real>679161214.459988</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>009935F9-AD87-44ED-8A24-0C536420C0AA</string>
+			<string>20219AB9-2EC2-4FF0-A702-91260FE5D3F5</string>
 		</dict>
-		<key>0FD37488-2906-43AC-9319-9F4233F75AB4</key>
+		<key>2E9BF90D-FE3B-4F73-B610-4F561939B366</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0FD37488-2906-43AC-9319-9F4233F75AB4.xcactivitylog</string>
+			<string>2E9BF90D-FE3B-4F73-B610-4F561939B366.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679062762.30549204</real>
+			<real>679165756.36226904</real>
 			<key>timeStoppedRecording</key>
-			<real>679062763.26721704</real>
+			<real>679165756.98369598</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>0FD37488-2906-43AC-9319-9F4233F75AB4</string>
+			<string>2E9BF90D-FE3B-4F73-B610-4F561939B366</string>
 		</dict>
-		<key>1EAE039E-20BE-4915-A72C-F17949E30E71</key>
+		<key>318E839C-A05E-4FC6-A447-2298EDEA805D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1EAE039E-20BE-4915-A72C-F17949E30E71.xcactivitylog</string>
+			<string>318E839C-A05E-4FC6-A447-2298EDEA805D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679062630.004336</real>
+			<real>679162209.42769694</real>
 			<key>timeStoppedRecording</key>
-			<real>679062634.80330896</real>
+			<real>679162210.76516998</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>1EAE039E-20BE-4915-A72C-F17949E30E71</string>
+			<string>318E839C-A05E-4FC6-A447-2298EDEA805D</string>
 		</dict>
-		<key>2E2F7B63-B0AD-4567-88D5-0F6285CB500C</key>
+		<key>4BA91218-8249-45BD-A1A0-74FA6276537E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2E2F7B63-B0AD-4567-88D5-0F6285CB500C.xcactivitylog</string>
+			<string>4BA91218-8249-45BD-A1A0-74FA6276537E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679059288.92607903</real>
+			<real>679074612.04405499</real>
 			<key>timeStoppedRecording</key>
-			<real>679059291.49747503</real>
+			<real>679074612.64600396</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>2E2F7B63-B0AD-4567-88D5-0F6285CB500C</string>
+			<string>4BA91218-8249-45BD-A1A0-74FA6276537E</string>
 		</dict>
-		<key>349FB77B-27A7-4317-B40A-5AF28103D419</key>
+		<key>4F4FBBDF-217E-46C2-A0AE-6AB1453D87DC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>349FB77B-27A7-4317-B40A-5AF28103D419.xcactivitylog</string>
+			<string>4F4FBBDF-217E-46C2-A0AE-6AB1453D87DC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679056803.45411301</real>
+			<real>679165941.81872499</real>
 			<key>timeStoppedRecording</key>
-			<real>679056805.24470794</real>
+			<real>679165942.41888499</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>349FB77B-27A7-4317-B40A-5AF28103D419</string>
+			<string>4F4FBBDF-217E-46C2-A0AE-6AB1453D87DC</string>
 		</dict>
-		<key>5F638803-CA2B-44D7-8039-BB5394F635F5</key>
+		<key>4F9D3DCE-1B54-4186-ABF0-E35A9FE6C834</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5F638803-CA2B-44D7-8039-BB5394F635F5.xcactivitylog</string>
+			<string>4F9D3DCE-1B54-4186-ABF0-E35A9FE6C834.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679056379.57863903</real>
+			<real>679165911.04375303</real>
 			<key>timeStoppedRecording</key>
-			<real>679056387.27969801</real>
+			<real>679165912.01813304</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>5F638803-CA2B-44D7-8039-BB5394F635F5</string>
+			<string>4F9D3DCE-1B54-4186-ABF0-E35A9FE6C834</string>
 		</dict>
-		<key>7A77E4AC-B898-4CB8-BF25-A543832C347E</key>
+		<key>5DD142D3-5378-43AB-8F38-206BFC500D03</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7A77E4AC-B898-4CB8-BF25-A543832C347E.xcactivitylog</string>
+			<string>5DD142D3-5378-43AB-8F38-206BFC500D03.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679062654.74142802</real>
+			<real>679165622.62510598</real>
 			<key>timeStoppedRecording</key>
-			<real>679062655.291098</real>
+			<real>679165625.38412201</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>7A77E4AC-B898-4CB8-BF25-A543832C347E</string>
+			<string>5DD142D3-5378-43AB-8F38-206BFC500D03</string>
 		</dict>
-		<key>A75B9B38-9D8E-43F6-9C68-F273D749BA0D</key>
+		<key>9CA5F715-AA27-4103-84BF-827A90089A88</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A75B9B38-9D8E-43F6-9C68-F273D749BA0D.xcactivitylog</string>
+			<string>9CA5F715-AA27-4103-84BF-827A90089A88.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679059717.67232394</real>
+			<real>679165744.76923597</real>
 			<key>timeStoppedRecording</key>
-			<real>679059719.33404398</real>
+			<real>679165744.82462001</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>A75B9B38-9D8E-43F6-9C68-F273D749BA0D</string>
+			<string>9CA5F715-AA27-4103-84BF-827A90089A88</string>
 		</dict>
-		<key>DFCC6F27-9588-41E1-86FA-018A22ACE4C2</key>
+		<key>9E3F0757-61CD-48A6-A072-56FBF9C5C3CC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>DFCC6F27-9588-41E1-86FA-018A22ACE4C2.xcactivitylog</string>
+			<string>9E3F0757-61CD-48A6-A072-56FBF9C5C3CC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,13 +304,81 @@
 			<key>signature</key>
 			<string>Build DragonBall_Xib</string>
 			<key>timeStartedRecording</key>
-			<real>679062708.78664196</real>
+			<real>679161918.12078595</real>
 			<key>timeStoppedRecording</key>
-			<real>679062709.05969501</real>
+			<real>679161918.18204296</real>
 			<key>title</key>
 			<string>Build DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>DFCC6F27-9588-41E1-86FA-018A22ACE4C2</string>
+			<string>9E3F0757-61CD-48A6-A072-56FBF9C5C3CC</string>
+		</dict>
+		<key>CC4AC200-161F-4010-8652-DF7A0875024D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CC4AC200-161F-4010-8652-DF7A0875024D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DragonBall_Xib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DragonBall_Xib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DragonBall_Xib</string>
+			<key>timeStartedRecording</key>
+			<real>679161250.42172801</real>
+			<key>timeStoppedRecording</key>
+			<real>679161250.47608197</real>
+			<key>title</key>
+			<string>Build DragonBall_Xib</string>
+			<key>uniqueIdentifier</key>
+			<string>CC4AC200-161F-4010-8652-DF7A0875024D</string>
+		</dict>
+		<key>D8200EF4-37D0-4251-8965-B8CD8FDAC798</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D8200EF4-37D0-4251-8965-B8CD8FDAC798.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DragonBall_Xib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DragonBall_Xib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DragonBall_Xib</string>
+			<key>timeStartedRecording</key>
+			<real>679165729.13121104</real>
+			<key>timeStoppedRecording</key>
+			<real>679165729.75453198</real>
+			<key>title</key>
+			<string>Build DragonBall_Xib</string>
+			<key>uniqueIdentifier</key>
+			<string>D8200EF4-37D0-4251-8965-B8CD8FDAC798</string>
 		</dict>
 	</dict>
 </dict>

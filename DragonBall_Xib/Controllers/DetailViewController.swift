@@ -24,6 +24,8 @@ class DetailViewController: UIViewController {
             return
         }
         
+        self.title = hero.name
+        
         self.nameLabel.text = hero.name
         self.descriptionTextView.text = hero.description
         self.imageView.setImage(url: hero.photo)

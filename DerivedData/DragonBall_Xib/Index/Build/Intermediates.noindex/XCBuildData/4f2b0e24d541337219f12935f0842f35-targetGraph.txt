@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+DragonBall_Xib in DragonBall_Xib, no dependencies
+DragonBall_Xib in DragonBall_Xib, no dependencies
+DragonBall_XibTests in DragonBall_Xib, depends on:
+DragonBall_Xib in DragonBall_Xib (explicit)
+DragonBall_XibTests in DragonBall_Xib, depends on:
+DragonBall_Xib in DragonBall_Xib (explicit)
+DragonBall_XibTests in DragonBall_Xib, no dependencies
+DragonBall_XibUITests in DragonBall_Xib, depends on:
+DragonBall_Xib in DragonBall_Xib (explicit)
+DragonBall_XibUITests in DragonBall_Xib, depends on:
+DragonBall_Xib in DragonBall_Xib (explicit)
+DragonBall_XibUITests in DragonBall_Xib, no dependencies

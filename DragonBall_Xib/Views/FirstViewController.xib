@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="DragonBall_Xib" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="4Oy-Eu-uAp" id="UxT-9c-ml2"/>
+                <outlet property="loginButton" destination="6uz-18-zHE" id="gew-qA-X6Q"/>
                 <outlet property="passwordTextField" destination="iIY-sO-xBr" id="AO8-0x-EzM"/>
                 <outlet property="userTextField" destination="dWr-ns-hhn" id="uiM-3u-WI2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -47,12 +49,17 @@
                         <action selector="onLoginTap:" destination="-1" eventType="touchUpInside" id="uHJ-M4-hz4"/>
                     </connections>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="4Oy-Eu-uAp">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="0i2-tX-kaN" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="AhR-2a-h66"/>
                 <constraint firstItem="dWr-ns-hhn" firstAttribute="trailing" secondItem="iIY-sO-xBr" secondAttribute="trailing" id="F6N-qM-7hJ"/>
+                <constraint firstItem="4Oy-Eu-uAp" firstAttribute="centerY" secondItem="0i2-tX-kaN" secondAttribute="centerY" id="FXL-l6-5Q9"/>
                 <constraint firstItem="iIY-sO-xBr" firstAttribute="centerY" secondItem="0i2-tX-kaN" secondAttribute="centerY" id="IAT-uD-gv5"/>
                 <constraint firstAttribute="bottom" secondItem="0i2-tX-kaN" secondAttribute="bottom" id="OkF-Cd-5lG"/>
                 <constraint firstItem="iIY-sO-xBr" firstAttribute="top" secondItem="dWr-ns-hhn" secondAttribute="bottom" constant="40" id="TB9-LK-eJI"/>
@@ -60,10 +67,11 @@
                 <constraint firstItem="0i2-tX-kaN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dK9-RP-hq4"/>
                 <constraint firstItem="6uz-18-zHE" firstAttribute="centerX" secondItem="iIY-sO-xBr" secondAttribute="centerX" id="nhz-y7-cEP"/>
                 <constraint firstItem="6uz-18-zHE" firstAttribute="top" secondItem="iIY-sO-xBr" secondAttribute="bottom" constant="50" id="v4V-Du-mTz"/>
+                <constraint firstItem="4Oy-Eu-uAp" firstAttribute="centerX" secondItem="0i2-tX-kaN" secondAttribute="centerX" id="yc1-9t-Xb2"/>
                 <constraint firstItem="iIY-sO-xBr" firstAttribute="centerX" secondItem="0i2-tX-kaN" secondAttribute="centerX" id="zJp-5a-Uxt"/>
                 <constraint firstItem="0i2-tX-kaN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zyt-wx-BNs"/>
             </constraints>
-            <point key="canvasLocation" x="-749" y="-23"/>
+            <point key="canvasLocation" x="-1043" y="-130"/>
         </view>
     </objects>
     <resources>

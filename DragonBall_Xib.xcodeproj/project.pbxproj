@@ -15,6 +15,7 @@
 		AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A3E2879D54C006222C4 /* DetailViewController.xib */; };
 		AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367A287B312C00C41669 /* HeroModel.swift */; };
 		AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */; };
+		AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB542F287C97FE00C3A816 /* NetworkModel.swift */; };
 		AAE8A97328799161005176FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A97228799161005176FA /* AppDelegate.swift */; };
 		AAE8A97528799161005176FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A97428799161005176FA /* SceneDelegate.swift */; };
 		AAE8A97C28799163005176FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97B28799163005176FA /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		AA257A3E2879D54C006222C4 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		AAA3367A287B312C00C41669 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		AADB542F287C97FE00C3A816 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		AAE8A96F28799161005176FA /* DragonBall_Xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall_Xib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE8A97228799161005176FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAE8A97428799161005176FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA3367A287B312C00C41669 /* HeroModel.swift */,
+				AADB542F287C97FE00C3A816 /* NetworkModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */,
 				AAE8A9A42879935F005176FA /* FirstViewController.swift in Sources */,
 				AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */,
+				AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */,
 				AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */,
 				AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */,
 				AAE8A97328799161005176FA /* AppDelegate.swift in Sources */,

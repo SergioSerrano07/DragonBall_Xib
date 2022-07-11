@@ -245,11 +245,15 @@ SWIFT_CLASS("_TtC14DragonBall_Xib20DetailViewController")
 @end
 
 @class UITextField;
+@class UIButton;
+@class UIActivityIndicatorView;
 
 SWIFT_CLASS("_TtC14DragonBall_Xib19FirstViewController")
 @interface FirstViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified userTextField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordTextField;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified activityIndicator;
 - (void)viewDidLoad;
 - (IBAction)onLoginTap:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -293,8 +297,6 @@ SWIFT_CLASS("_TtC14DragonBall_Xib13TableViewCell")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified heroImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified heroName;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified heroDescription;
-- (void)awakeFromNib;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

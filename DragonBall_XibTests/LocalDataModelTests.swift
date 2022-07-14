@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import DragonBall_Xib
 
 class LocalDataModelTests: XCTestCase {
 
@@ -14,22 +15,32 @@ class LocalDataModelTests: XCTestCase {
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        LocalDataModel.deleteToken()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testSaveToken() throws {
+        //Given
+        let storedToken = "TestToken"
+        //When
+        LocalDataModel.save(token: storedToken)
+        //Then
+        let retrievedToken = LocalDataModel.getToken()
+        XCTAssertEqual(retrievedToken, storedToken, "retrieved token doesn't match stored token")
+    }
+    
+    func testGetTokenWhenNoTokenSaved() throws {
+        let retrievedToken = LocalDataModel.getToken()
+        XCTAssertNil(retrievedToken, "There should be no saved token")
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testDeleteToken() throws {
+        //Given
+        let storedToken = "TestToken"
+        LocalDataModel.save(token: storedToken)
+        //When
+        LocalDataModel.deleteToken()
+        //Then
+        let retrievedToken = LocalDataModel.getToken()
+        XCTAssertNil(retrievedToken, "The token was remove")
     }
-
 }

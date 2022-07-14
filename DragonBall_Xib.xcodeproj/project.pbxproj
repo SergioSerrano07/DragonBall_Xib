@@ -11,6 +11,7 @@
 		AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348042880A88C00F76D6A /* LogOutViewController.swift */; };
 		AA2348072880A88C00F76D6A /* LogOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2348052880A88C00F76D6A /* LogOutViewController.xib */; };
 		AA2348092880AE0700F76D6A /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348082880AE0700F76D6A /* LocalDataModel.swift */; };
+		AA23480B2880C0EB00F76D6A /* NetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23480A2880C0EB00F76D6A /* NetworkModelTests.swift */; };
 		AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A342879CA68006222C4 /* HeoresTableViewController.swift */; };
 		AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A352879CA68006222C4 /* HeoresTableViewController.xib */; };
 		AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A382879CAEA006222C4 /* TableViewCell.swift */; };
@@ -24,7 +25,6 @@
 		AAE8A97528799161005176FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A97428799161005176FA /* SceneDelegate.swift */; };
 		AAE8A97C28799163005176FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97B28799163005176FA /* Assets.xcassets */; };
 		AAE8A97F28799163005176FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97D28799163005176FA /* LaunchScreen.storyboard */; };
-		AAE8A98A28799164005176FA /* DragonBall_XibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A98928799164005176FA /* DragonBall_XibTests.swift */; };
 		AAE8A9A42879935F005176FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A9A22879935F005176FA /* LoginViewController.swift */; };
 		AAE8A9A52879935F005176FA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A9A32879935F005176FA /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
@@ -44,6 +44,7 @@
 		AA2348042880A88C00F76D6A /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
 		AA2348052880A88C00F76D6A /* LogOutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogOutViewController.xib; sourceTree = "<group>"; };
 		AA2348082880AE0700F76D6A /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
+		AA23480A2880C0EB00F76D6A /* NetworkModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
 		AA257A342879CA68006222C4 /* HeoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeoresTableViewController.swift; sourceTree = "<group>"; };
 		AA257A352879CA68006222C4 /* HeoresTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeoresTableViewController.xib; sourceTree = "<group>"; };
 		AA257A382879CAEA006222C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		AAE8A97E28799163005176FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE8A98028799163005176FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE8A98528799164005176FA /* DragonBall_XibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBall_XibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE8A98928799164005176FA /* DragonBall_XibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_XibTests.swift; sourceTree = "<group>"; };
 		AAE8A9A22879935F005176FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AAE8A9A32879935F005176FA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,8 +162,8 @@
 		AAE8A98828799164005176FA /* DragonBall_XibTests */ = {
 			isa = PBXGroup;
 			children = (
-				AAE8A98928799164005176FA /* DragonBall_XibTests.swift */,
 				AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */,
+				AA23480A2880C0EB00F76D6A /* NetworkModelTests.swift */,
 			);
 			path = DragonBall_XibTests;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE8A98A28799164005176FA /* DragonBall_XibTests.swift in Sources */,
+				AA23480B2880C0EB00F76D6A /* NetworkModelTests.swift in Sources */,
 				AA2348012880A0ED00F76D6A /* LocalDataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

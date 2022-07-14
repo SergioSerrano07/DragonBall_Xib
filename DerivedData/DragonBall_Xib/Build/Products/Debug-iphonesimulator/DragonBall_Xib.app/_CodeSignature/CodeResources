@@ -52,6 +52,18 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/DragonBall_XibTests.xctest/DragonBall_XibTests</key>
+		<data>
+		08bXB4NRAkgAoiDF+Mu0ameMtPQ=
+		</data>
+		<key>PlugIns/DragonBall_XibTests.xctest/Info.plist</key>
+		<data>
+		7GmnyVlT0sD7TEDdxutAyunWGv8=
+		</data>
+		<key>PlugIns/DragonBall_XibTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		R1QOIpFSDTDO9kFgUsY/Hdv6zho=
+		</data>
 		<key>TableViewCell.nib</key>
 		<data>
 		8OvDPwkh5anFmDw90MqiQ85h6Xg=
@@ -127,6 +139,27 @@
 			<key>hash2</key>
 			<data>
 			UisU5+sLvZx8yeJHWb5CasK2Psa+eLFpmYU9ajTfhD4=
+			</data>
+		</dict>
+		<key>PlugIns/DragonBall_XibTests.xctest/DragonBall_XibTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ls4LZev7Sf9Va/t7yv4167wuveorivZYwAG7Hdw9jVw=
+			</data>
+		</dict>
+		<key>PlugIns/DragonBall_XibTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iLXMDJ56llblktGA5q+n01ps4nmWDCsWvtcog/G2a3g=
+			</data>
+		</dict>
+		<key>PlugIns/DragonBall_XibTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FihyLUJG3nBlKZUDmC+4RG0H0QHeykE4Zg/3+bvq3Ps=
 			</data>
 		</dict>
 		<key>TableViewCell.nib</key>

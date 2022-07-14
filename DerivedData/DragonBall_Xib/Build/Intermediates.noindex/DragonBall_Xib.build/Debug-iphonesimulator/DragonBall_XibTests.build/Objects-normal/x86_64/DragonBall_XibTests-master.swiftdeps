@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "4214bedcfcdab5685d03f56c41c7504e6b6a8a1b76805aba8bc3487cb9eec10a"
+build_start_time: [1657834430, 906615972]
+build_end_time: [1657834431, 617474079]
+inputs:
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_XibTests/LocalDataModelTests.swift": [1657833607, 155508279]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_XibTests/NetworkModelTests.swift": [1657834430, 525601863]

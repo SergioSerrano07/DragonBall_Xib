@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>906CC63E-4EF1-4475-AF60-46E976325922</key>
+		<key>4978D61C-98F6-4093-9B57-9DE3CC9D0D23</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>906CC63E-4EF1-4475-AF60-46E976325922.xcactivitylog</string>
+			<string>4978D61C-98F6-4093-9B57-9DE3CC9D0D23.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,41 @@
 			<key>signature</key>
 			<string>DragonBall_Xib-ebkuwxfxjvbrscdlcyckqskjwjwh</string>
 			<key>timeStartedRecording</key>
-			<real>679524973.56100404</real>
+			<real>679528513.93871999</real>
 			<key>timeStoppedRecording</key>
-			<real>679524974.72506106</real>
+			<real>679528514.38884902</real>
 			<key>title</key>
 			<string>Build target DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>906CC63E-4EF1-4475-AF60-46E976325922</string>
+			<string>4978D61C-98F6-4093-9B57-9DE3CC9D0D23</string>
+		</dict>
+		<key>D581472D-A094-438E-9BFD-1E5EA9BC9BBF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>D581472D-A094-438E-9BFD-1E5EA9BC9BBF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>DragonBall_XibTests-ebkuwxfxjvbrscdlcyckqskjwjwh</string>
+			<key>timeStartedRecording</key>
+			<real>679527230.63562906</real>
+			<key>timeStoppedRecording</key>
+			<real>679527232.01151597</real>
+			<key>title</key>
+			<string>Build target DragonBall_XibTests</string>
+			<key>uniqueIdentifier</key>
+			<string>D581472D-A094-438E-9BFD-1E5EA9BC9BBF</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

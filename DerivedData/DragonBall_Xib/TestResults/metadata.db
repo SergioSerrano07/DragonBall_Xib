@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>DragonBall_XibTests</key>
+		<dict>
+			<key>LocalDataModelTests</key>
+			<dict>
+				<key>testDeleteToken</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.012716054916381836</real>
+				</dict>
+				<key>testGetTokenWhenNoTokenSaved</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0014721155166625977</real>
+				</dict>
+				<key>testSaveToken</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.003146052360534668</real>
+				</dict>
+			</dict>
+			<key>NetworkModelTests</key>
+			<dict>
+				<key>testLoginFail</key>
+				<dict>
+					<key>mrnet</key>
+					<real>1.0749890804290771</real>
+				</dict>
+				<key>testLoginSuccess</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.40632998943328857</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

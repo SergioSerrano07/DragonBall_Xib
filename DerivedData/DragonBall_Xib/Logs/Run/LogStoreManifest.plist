@@ -74,6 +74,40 @@
 			<key>uniqueIdentifier</key>
 			<string>04110A80-7170-403A-8BCC-6FBE4C176884</string>
 		</dict>
+		<key>0A0251BE-E34F-465C-BEC8-825A84EE8CD6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0A0251BE-E34F-465C-BEC8-825A84EE8CD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DragonBall_Xib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DragonBall_Xib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DragonBall_Xib</string>
+			<key>timeStartedRecording</key>
+			<real>679528514.40105903</real>
+			<key>timeStoppedRecording</key>
+			<real>679528575.64394104</real>
+			<key>title</key>
+			<string>Run DragonBall_Xib</string>
+			<key>uniqueIdentifier</key>
+			<string>0A0251BE-E34F-465C-BEC8-825A84EE8CD6</string>
+		</dict>
 		<key>0AF3E56D-5B37-4680-99B0-998D282070B5</key>
 		<dict>
 			<key>className</key>
@@ -447,6 +481,40 @@
 			<string>Run DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
 			<string>7307525F-64DF-46DF-B7E4-4B68DBBB804D</string>
+		</dict>
+		<key>73098B3E-4E75-4A55-B2DF-CB518743FC79</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>73098B3E-4E75-4A55-B2DF-CB518743FC79.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DragonBall_Xib project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DragonBall_Xib</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DragonBall_Xib</string>
+			<key>timeStartedRecording</key>
+			<real>679524974.73202598</real>
+			<key>timeStoppedRecording</key>
+			<real>679525722.02826405</real>
+			<key>title</key>
+			<string>Run DragonBall_Xib</string>
+			<key>uniqueIdentifier</key>
+			<string>73098B3E-4E75-4A55-B2DF-CB518743FC79</string>
 		</dict>
 		<key>7C8DDBD4-63C5-4E77-BD36-8A146345FB78</key>
 		<dict>

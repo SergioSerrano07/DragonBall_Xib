@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2348012880A0ED00F76D6A /* LocalDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */; };
+		AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348042880A88C00F76D6A /* LogOutViewController.swift */; };
+		AA2348072880A88C00F76D6A /* LogOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2348052880A88C00F76D6A /* LogOutViewController.xib */; };
+		AA2348092880AE0700F76D6A /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348082880AE0700F76D6A /* LocalDataModel.swift */; };
 		AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A342879CA68006222C4 /* HeoresTableViewController.swift */; };
 		AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A352879CA68006222C4 /* HeoresTableViewController.xib */; };
 		AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A382879CAEA006222C4 /* TableViewCell.swift */; };
@@ -21,10 +25,8 @@
 		AAE8A97C28799163005176FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97B28799163005176FA /* Assets.xcassets */; };
 		AAE8A97F28799163005176FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A97D28799163005176FA /* LaunchScreen.storyboard */; };
 		AAE8A98A28799164005176FA /* DragonBall_XibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A98928799164005176FA /* DragonBall_XibTests.swift */; };
-		AAE8A99428799164005176FA /* DragonBall_XibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A99328799164005176FA /* DragonBall_XibUITests.swift */; };
-		AAE8A99628799164005176FA /* DragonBall_XibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A99528799164005176FA /* DragonBall_XibUITestsLaunchTests.swift */; };
-		AAE8A9A42879935F005176FA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A9A22879935F005176FA /* FirstViewController.swift */; };
-		AAE8A9A52879935F005176FA /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A9A32879935F005176FA /* FirstViewController.xib */; };
+		AAE8A9A42879935F005176FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8A9A22879935F005176FA /* LoginViewController.swift */; };
+		AAE8A9A52879935F005176FA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE8A9A32879935F005176FA /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +37,13 @@
 			remoteGlobalIDString = AAE8A96E28799161005176FA;
 			remoteInfo = DragonBall_Xib;
 		};
-		AAE8A99028799164005176FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAE8A96728799160005176FA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAE8A96E28799161005176FA;
-			remoteInfo = DragonBall_Xib;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModelTests.swift; sourceTree = "<group>"; };
+		AA2348042880A88C00F76D6A /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		AA2348052880A88C00F76D6A /* LogOutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogOutViewController.xib; sourceTree = "<group>"; };
+		AA2348082880AE0700F76D6A /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
 		AA257A342879CA68006222C4 /* HeoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeoresTableViewController.swift; sourceTree = "<group>"; };
 		AA257A352879CA68006222C4 /* HeoresTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeoresTableViewController.xib; sourceTree = "<group>"; };
 		AA257A382879CAEA006222C4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -62,11 +61,8 @@
 		AAE8A98028799163005176FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE8A98528799164005176FA /* DragonBall_XibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBall_XibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE8A98928799164005176FA /* DragonBall_XibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_XibTests.swift; sourceTree = "<group>"; };
-		AAE8A98F28799164005176FA /* DragonBall_XibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBall_XibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE8A99328799164005176FA /* DragonBall_XibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_XibUITests.swift; sourceTree = "<group>"; };
-		AAE8A99528799164005176FA /* DragonBall_XibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBall_XibUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AAE8A9A22879935F005176FA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AAE8A9A32879935F005176FA /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		AAE8A9A22879935F005176FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AAE8A9A32879935F005176FA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +74,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AAE8A98228799164005176FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAE8A98C28799164005176FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,6 +97,7 @@
 			children = (
 				AAA3367A287B312C00C41669 /* HeroModel.swift */,
 				AADB542F287C97FE00C3A816 /* NetworkModel.swift */,
+				AA2348082880AE0700F76D6A /* LocalDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,9 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				AA257A3C2879D4C5006222C4 /* TableView */,
-				AAE8A9A32879935F005176FA /* FirstViewController.xib */,
+				AAE8A9A32879935F005176FA /* LoginViewController.xib */,
 				AA257A352879CA68006222C4 /* HeoresTableViewController.xib */,
 				AA257A3E2879D54C006222C4 /* DetailViewController.xib */,
+				AA2348052880A88C00F76D6A /* LogOutViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,9 +117,10 @@
 		AAB5C43C2879A491004F438C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AAE8A9A22879935F005176FA /* FirstViewController.swift */,
+				AAE8A9A22879935F005176FA /* LoginViewController.swift */,
 				AA257A342879CA68006222C4 /* HeoresTableViewController.swift */,
 				AA257A3D2879D54C006222C4 /* DetailViewController.swift */,
+				AA2348042880A88C00F76D6A /* LogOutViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,7 +130,6 @@
 			children = (
 				AAE8A97128799161005176FA /* DragonBall_Xib */,
 				AAE8A98828799164005176FA /* DragonBall_XibTests */,
-				AAE8A99228799164005176FA /* DragonBall_XibUITests */,
 				AAE8A97028799161005176FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,7 +139,6 @@
 			children = (
 				AAE8A96F28799161005176FA /* DragonBall_Xib.app */,
 				AAE8A98528799164005176FA /* DragonBall_XibTests.xctest */,
-				AAE8A98F28799164005176FA /* DragonBall_XibUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,17 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				AAE8A98928799164005176FA /* DragonBall_XibTests.swift */,
+				AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */,
 			);
 			path = DragonBall_XibTests;
-			sourceTree = "<group>";
-		};
-		AAE8A99228799164005176FA /* DragonBall_XibUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AAE8A99328799164005176FA /* DragonBall_XibUITests.swift */,
-				AAE8A99528799164005176FA /* DragonBall_XibUITestsLaunchTests.swift */,
-			);
-			path = DragonBall_XibUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,24 +206,6 @@
 			productReference = AAE8A98528799164005176FA /* DragonBall_XibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AAE8A98E28799164005176FA /* DragonBall_XibUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAE8A99F28799164005176FA /* Build configuration list for PBXNativeTarget "DragonBall_XibUITests" */;
-			buildPhases = (
-				AAE8A98B28799164005176FA /* Sources */,
-				AAE8A98C28799164005176FA /* Frameworks */,
-				AAE8A98D28799164005176FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAE8A99128799164005176FA /* PBXTargetDependency */,
-			);
-			name = DragonBall_XibUITests;
-			productName = DragonBall_XibUITests;
-			productReference = AAE8A98F28799164005176FA /* DragonBall_XibUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,10 +220,6 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					AAE8A98428799164005176FA = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = AAE8A96E28799161005176FA;
-					};
-					AAE8A98E28799164005176FA = {
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = AAE8A96E28799161005176FA;
 					};
@@ -280,7 +240,6 @@
 			targets = (
 				AAE8A96E28799161005176FA /* DragonBall_Xib */,
 				AAE8A98428799164005176FA /* DragonBall_XibTests */,
-				AAE8A98E28799164005176FA /* DragonBall_XibUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,19 +253,13 @@
 				AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */,
 				AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */,
 				AAE8A97F28799163005176FA /* LaunchScreen.storyboard in Resources */,
-				AAE8A9A52879935F005176FA /* FirstViewController.xib in Resources */,
+				AAE8A9A52879935F005176FA /* LoginViewController.xib in Resources */,
+				AA2348072880A88C00F76D6A /* LogOutViewController.xib in Resources */,
 				AAE8A97C28799163005176FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AAE8A98328799164005176FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAE8A98D28799164005176FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA257A362879CA68006222C4 /* HeoresTableViewController.swift in Sources */,
-				AAE8A9A42879935F005176FA /* FirstViewController.swift in Sources */,
+				AAE8A9A42879935F005176FA /* LoginViewController.swift in Sources */,
 				AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */,
+				AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */,
+				AA2348092880AE0700F76D6A /* LocalDataModel.swift in Sources */,
 				AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */,
 				AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */,
 				AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */,
@@ -337,15 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE8A98A28799164005176FA /* DragonBall_XibTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAE8A98B28799164005176FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAE8A99628799164005176FA /* DragonBall_XibUITestsLaunchTests.swift in Sources */,
-				AAE8A99428799164005176FA /* DragonBall_XibUITests.swift in Sources */,
+				AA2348012880A0ED00F76D6A /* LocalDataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +303,6 @@
 			isa = PBXTargetDependency;
 			target = AAE8A96E28799161005176FA /* DragonBall_Xib */;
 			targetProxy = AAE8A98628799164005176FA /* PBXContainerItemProxy */;
-		};
-		AAE8A99128799164005176FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AAE8A96E28799161005176FA /* DragonBall_Xib */;
-			targetProxy = AAE8A99028799164005176FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -580,40 +522,6 @@
 			};
 			name = Release;
 		};
-		AAE8A9A028799164005176FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sergioserrano.DragonBall-XibUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DragonBall_Xib;
-			};
-			name = Debug;
-		};
-		AAE8A9A128799164005176FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sergioserrano.DragonBall-XibUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DragonBall_Xib;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -640,15 +548,6 @@
 			buildConfigurations = (
 				AAE8A99D28799164005176FA /* Debug */,
 				AAE8A99E28799164005176FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAE8A99F28799164005176FA /* Build configuration list for PBXNativeTarget "DragonBall_XibUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAE8A9A028799164005176FA /* Debug */,
-				AAE8A9A128799164005176FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

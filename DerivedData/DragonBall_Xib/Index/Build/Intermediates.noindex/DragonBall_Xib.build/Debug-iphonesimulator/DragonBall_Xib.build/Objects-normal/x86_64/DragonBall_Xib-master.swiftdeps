@@ -1,8 +1,16 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "8c4cc6af5aa52971e01f674ffd838d93ae7f5fc1782ce61508382f6e0020383f"
-build_start_time: [1657362923, 152070045]
-build_end_time: [1657362925, 660025119]
+build_start_time: [1657575087, 967314958]
+build_end_time: [1657575088, 476986885]
 inputs:
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/AppDelegate.swift": [1657362913, 38398265]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657362913, 45585632]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/ViewController.swift": [1657362913, 47573328]
+  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/DetailViewController.swift"
+  : [1657570101, 28937339]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/FirstViewController.swift": [1657575081, 944950580]
+  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/HeoresTableViewController.swift"
+  : [1657575081, 945236206]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/HeroModel.swift": [1657564032, 513241052]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/NetworkModel.swift": [1657575081, 945604085]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657366488, 920948505]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/UIImageViewExtension.swift": [1657473111, 9748935]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Views/TableView/TableViewCell.swift": [1657565983, 432904720]

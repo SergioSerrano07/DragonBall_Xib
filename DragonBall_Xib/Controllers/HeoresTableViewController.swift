@@ -13,12 +13,15 @@ class HeoresTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Heroes"
         
         tableView?.register(
             UINib(nibName: "TableViewCell", bundle: nil),
             forCellReuseIdentifier: "reuseIdentifier")
         
-        let networkModel = NetworkModel.shared
+        guard let token = LocalDataModel.getToken() else { return }
+        
+        let networkModel = NetworkModel(token: token)
         networkModel.getHeroes { [weak self] heroes, _ in
             guard let self = self else { return }
             

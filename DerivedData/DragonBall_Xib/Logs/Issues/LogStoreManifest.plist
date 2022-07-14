@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4A8CCAE0-A15C-4D1A-B089-1DBEE3255334</key>
+		<key>906CC63E-4EF1-4475-AF60-46E976325922</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>4A8CCAE0-A15C-4D1A-B089-1DBEE3255334.xcactivitylog</string>
+			<string>906CC63E-4EF1-4475-AF60-46E976325922.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>DragonBall_Xib-ebkuwxfxjvbrscdlcyckqskjwjwh</string>
 			<key>timeStartedRecording</key>
-			<real>679259137.72148097</real>
+			<real>679524973.56100404</real>
 			<key>timeStoppedRecording</key>
-			<real>679259137.92504203</real>
+			<real>679524974.72506106</real>
 			<key>title</key>
 			<string>Build target DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>4A8CCAE0-A15C-4D1A-B089-1DBEE3255334</string>
+			<string>906CC63E-4EF1-4475-AF60-46E976325922</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

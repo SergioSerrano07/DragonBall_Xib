@@ -15,9 +15,124 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "ViewController",
-      "printedName": "ViewController",
+      "name": "HeoresTableViewController",
+      "printedName": "HeoresTableViewController",
       "children": [
+        {
+          "kind": "Var",
+          "name": "heroes",
+          "printedName": "heroes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[DragonBall_Xib.Hero]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hero",
+                  "printedName": "DragonBall_Xib.Hero",
+                  "usr": "s:14DragonBall_Xib4HeroV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvp",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[DragonBall_Xib.Hero]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Hero",
+                      "printedName": "DragonBall_Xib.Hero",
+                      "usr": "s:14DragonBall_Xib4HeroV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvg",
+              "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[DragonBall_Xib.Hero]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Hero",
+                      "printedName": "DragonBall_Xib.Hero",
+                      "usr": "s:14DragonBall_Xib4HeroV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvs",
+              "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvM",
+              "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC6heroesSayAA4HeroVGvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
         {
           "kind": "Function",
           "name": "viewDidLoad",
@@ -30,8 +145,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController(im)viewDidLoad",
-          "mangledName": "$s14DragonBall_Xib14ViewControllerC11viewDidLoadyyF",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)viewDidLoad",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC11viewDidLoadyyF",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "isOpen": true,
@@ -45,15 +160,198 @@
           "funcSelfKind": "NonMutating"
         },
         {
+          "kind": "Function",
+          "name": "numberOfSections",
+          "printedName": "numberOfSections(in:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)numberOfSectionsInTableView:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC16numberOfSections2inSiSo07UITableF0C_tF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "numberOfSectionsInTableView:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC05tableF0_21numberOfRowsInSectionSiSo07UITableF0C_SitF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC05tableF0_12cellForRowAtSo07UITableF4CellCSo0mF0C_10Foundation9IndexPathVtF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC05tableF0_14didSelectRowAtySo07UITableF0C_10Foundation9IndexPathVtF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HeoresTableViewController",
+              "printedName": "DragonBall_Xib.HeoresTableViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Style",
+              "printedName": "UIKit.UITableView.Style",
+              "usr": "c:@E@UITableViewStyle"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)initWithStyle:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC5styleACSo07UITableF5StyleV_tcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithStyle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
           "kind": "Constructor",
           "name": "init",
           "printedName": "init(nibName:bundle:)",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "ViewController",
-              "printedName": "DragonBall_Xib.ViewController",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController"
+              "name": "HeoresTableViewController",
+              "printedName": "DragonBall_Xib.HeoresTableViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController"
             },
             {
               "kind": "TypeNominal",
@@ -85,8 +383,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController(im)initWithNibName:bundle:",
-          "mangledName": "$s14DragonBall_Xib14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "implicit": true,
@@ -107,13 +405,13 @@
             {
               "kind": "TypeNominal",
               "name": "Optional",
-              "printedName": "DragonBall_Xib.ViewController?",
+              "printedName": "DragonBall_Xib.HeoresTableViewController?",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "ViewController",
-                  "printedName": "DragonBall_Xib.ViewController",
-                  "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController"
+                  "name": "HeoresTableViewController",
+                  "printedName": "DragonBall_Xib.HeoresTableViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController"
                 }
               ],
               "usr": "s:Sq"
@@ -126,8 +424,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController(im)initWithCoder:",
-          "mangledName": "$s14DragonBall_Xib14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController(im)initWithCoder:",
+          "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC5coderACSgSo7NSCoderC_tcfc",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "implicit": true,
@@ -142,8 +440,707 @@
         }
       ],
       "declKind": "Class",
-      "usr": "c:@M@DragonBall_Xib@objc(cs)ViewController",
-      "mangledName": "$s14DragonBall_Xib14ViewControllerC",
+      "usr": "c:@M@DragonBall_Xib@objc(cs)HeoresTableViewController",
+      "mangledName": "$s14DragonBall_Xib25HeoresTableViewControllerC",
+      "moduleName": "DragonBall_Xib",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FirstViewController",
+      "printedName": "FirstViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "userTextField",
+          "printedName": "userTextField",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITextField?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(py)userTextField",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC13userTextFieldSo06UITextI0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)userTextField",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC13userTextFieldSo06UITextI0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)setUserTextField:",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC13userTextFieldSo06UITextI0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib19FirstViewControllerC13userTextFieldSo06UITextI0CSgvM",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC13userTextFieldSo06UITextI0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "passwordTextField",
+          "printedName": "passwordTextField",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITextField?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(py)passwordTextField",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17passwordTextFieldSo06UITextI0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)passwordTextField",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17passwordTextFieldSo06UITextI0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)setPasswordTextField:",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17passwordTextFieldSo06UITextI0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib19FirstViewControllerC17passwordTextFieldSo06UITextI0CSgvM",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17passwordTextFieldSo06UITextI0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "loginButton",
+          "printedName": "loginButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIButton?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(py)loginButton",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC11loginButtonSo8UIButtonCSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)loginButton",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC11loginButtonSo8UIButtonCSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)setLoginButton:",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC11loginButtonSo8UIButtonCSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib19FirstViewControllerC11loginButtonSo8UIButtonCSgvM",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC11loginButtonSo8UIButtonCSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "activityIndicator",
+          "printedName": "activityIndicator",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIActivityIndicatorView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(py)activityIndicator",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17activityIndicatorSo010UIActivityhE0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIActivityIndicatorView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIActivityIndicatorView",
+                      "printedName": "UIKit.UIActivityIndicatorView",
+                      "usr": "c:objc(cs)UIActivityIndicatorView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)activityIndicator",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17activityIndicatorSo010UIActivityhE0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIActivityIndicatorView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIActivityIndicatorView",
+                      "printedName": "UIKit.UIActivityIndicatorView",
+                      "usr": "c:objc(cs)UIActivityIndicatorView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)setActivityIndicator:",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17activityIndicatorSo010UIActivityhE0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib19FirstViewControllerC17activityIndicatorSo010UIActivityhE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib19FirstViewControllerC17activityIndicatorSo010UIActivityhE0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)viewDidLoad",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC11viewDidLoadyyF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "onLoginTap",
+          "printedName": "onLoginTap(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ProtocolComposition",
+              "printedName": "Any"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)onLoginTap:",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC10onLoginTapyyypF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FirstViewController",
+              "printedName": "DragonBall_Xib.FirstViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "DragonBall_Xib.FirstViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FirstViewController",
+                  "printedName": "DragonBall_Xib.FirstViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController(im)initWithCoder:",
+          "mangledName": "$s14DragonBall_Xib19FirstViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DragonBall_Xib@objc(cs)FirstViewController",
+      "mangledName": "$s14DragonBall_Xib19FirstViewControllerC",
       "moduleName": "DragonBall_Xib",
       "isOpen": true,
       "declAttributes": [
@@ -206,6 +1203,2185 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TableViewCell",
+      "printedName": "TableViewCell",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "heroImage",
+          "printedName": "heroImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(py)heroImage",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC9heroImageSo07UIImageE0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)heroImage",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC9heroImageSo07UIImageE0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)setHeroImage:",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC9heroImageSo07UIImageE0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib13TableViewCellC9heroImageSo07UIImageE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC9heroImageSo07UIImageE0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "heroName",
+          "printedName": "heroName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(py)heroName",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC8heroNameSo7UILabelCSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)heroName",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC8heroNameSo7UILabelCSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)setHeroName:",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC8heroNameSo7UILabelCSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib13TableViewCellC8heroNameSo7UILabelCSgvM",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC8heroNameSo7UILabelCSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "heroDescription",
+          "printedName": "heroDescription",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(py)heroDescription",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC15heroDescriptionSo7UILabelCSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)heroDescription",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC15heroDescriptionSo7UILabelCSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)setHeroDescription:",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC15heroDescriptionSo7UILabelCSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib13TableViewCellC15heroDescriptionSo7UILabelCSgvM",
+              "mangledName": "$s14DragonBall_Xib13TableViewCellC15heroDescriptionSo7UILabelCSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "set",
+          "printedName": "set(model:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hero",
+              "printedName": "DragonBall_Xib.Hero",
+              "usr": "s:14DragonBall_Xib4HeroV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14DragonBall_Xib13TableViewCellC3set5modelyAA4HeroV_tF",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC3set5modelyAA4HeroV_tF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:reuseIdentifier:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TableViewCell",
+              "printedName": "DragonBall_Xib.TableViewCell",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CellStyle",
+              "printedName": "UIKit.UITableViewCell.CellStyle",
+              "usr": "c:@E@UITableViewCellStyle"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)initWithStyle:reuseIdentifier:",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC5style15reuseIdentifierACSo07UITableeF5StyleV_SSSgtcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "3.0",
+          "objc_name": "initWithStyle:reuseIdentifier:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "DragonBall_Xib.TableViewCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TableViewCell",
+                  "printedName": "DragonBall_Xib.TableViewCell",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell(im)initWithCoder:",
+          "mangledName": "$s14DragonBall_Xib13TableViewCellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DragonBall_Xib@objc(cs)TableViewCell",
+      "mangledName": "$s14DragonBall_Xib13TableViewCellC",
+      "moduleName": "DragonBall_Xib",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewCell",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewCell",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NetworkError",
+      "printedName": "NetworkError",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "malformedURL",
+          "printedName": "malformedURL",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO12malformedURLyA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO12malformedURLyA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "dataFormatting",
+          "printedName": "dataFormatting",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO14dataFormattingyA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO14dataFormattingyA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "other",
+          "printedName": "other",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO5otheryA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO5otheryA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "noData",
+          "printedName": "noData",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO6noDatayA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO6noDatayA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Var",
+          "name": "errorCode",
+          "printedName": "errorCode",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> (Swift.Int?) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.Int?) -> DragonBall_Xib.NetworkError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Int?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO9errorCodeyACSiSgcACmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO9errorCodeyACSiSgcACmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 4
+        },
+        {
+          "kind": "Var",
+          "name": "tokenFormatError",
+          "printedName": "tokenFormatError",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO011tokenFormatE0yA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO011tokenFormatE0yA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 5
+        },
+        {
+          "kind": "Var",
+          "name": "decoding",
+          "printedName": "decoding",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_Xib.NetworkError.Type) -> DragonBall_Xib.NetworkError",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkError",
+                  "printedName": "DragonBall_Xib.NetworkError",
+                  "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_Xib.NetworkError.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NetworkError",
+                      "printedName": "DragonBall_Xib.NetworkError",
+                      "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:14DragonBall_Xib12NetworkErrorO8decodingyA2CmF",
+          "mangledName": "$s14DragonBall_Xib12NetworkErrorO8decodingyA2CmF",
+          "moduleName": "DragonBall_Xib",
+          "fixedbinaryorder": 6
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:14DragonBall_Xib12NetworkErrorO",
+      "mangledName": "$s14DragonBall_Xib12NetworkErrorO",
+      "moduleName": "DragonBall_Xib",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Error",
+          "printedName": "Error",
+          "usr": "s:s5ErrorP",
+          "mangledName": "$ss5ErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NetworkModel",
+      "printedName": "NetworkModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "token",
+          "printedName": "token",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib12NetworkModelC5tokenSSSgvp",
+          "mangledName": "$s14DragonBall_Xib12NetworkModelC5tokenSSSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib12NetworkModelC5tokenSSSgvg",
+              "mangledName": "$s14DragonBall_Xib12NetworkModelC5tokenSSSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib12NetworkModelC5tokenSSSgvs",
+              "mangledName": "$s14DragonBall_Xib12NetworkModelC5tokenSSSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib12NetworkModelC5tokenSSSgvM",
+              "mangledName": "$s14DragonBall_Xib12NetworkModelC5tokenSSSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "shared",
+          "printedName": "shared",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NetworkModel",
+              "printedName": "DragonBall_Xib.NetworkModel",
+              "usr": "s:14DragonBall_Xib12NetworkModelC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib12NetworkModelC6sharedACvpZ",
+          "mangledName": "$s14DragonBall_Xib12NetworkModelC6sharedACvpZ",
+          "moduleName": "DragonBall_Xib",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkModel",
+                  "printedName": "DragonBall_Xib.NetworkModel",
+                  "usr": "s:14DragonBall_Xib12NetworkModelC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib12NetworkModelC6sharedACvgZ",
+              "mangledName": "$s14DragonBall_Xib12NetworkModelC6sharedACvgZ",
+              "moduleName": "DragonBall_Xib",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "login",
+          "printedName": "login(user:password:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.String?, DragonBall_Xib.NetworkError?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Swift.String?, DragonBall_Xib.NetworkError?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.String?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "DragonBall_Xib.NetworkError?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NetworkError",
+                          "printedName": "DragonBall_Xib.NetworkError",
+                          "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14DragonBall_Xib12NetworkModelC5login4user8password10completionySS_SSySSSg_AA0D5ErrorOSgtctF",
+          "mangledName": "$s14DragonBall_Xib12NetworkModelC5login4user8password10completionySS_SSySSSg_AA0D5ErrorOSgtctF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getHeroes",
+          "printedName": "getHeroes(name:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "([DragonBall_Xib.Hero], DragonBall_Xib.NetworkError?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "([DragonBall_Xib.Hero], DragonBall_Xib.NetworkError?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[DragonBall_Xib.Hero]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Hero",
+                          "printedName": "DragonBall_Xib.Hero",
+                          "usr": "s:14DragonBall_Xib4HeroV"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "DragonBall_Xib.NetworkError?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "NetworkError",
+                          "printedName": "DragonBall_Xib.NetworkError",
+                          "usr": "s:14DragonBall_Xib12NetworkErrorO"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14DragonBall_Xib12NetworkModelC9getHeroes4name10completionySS_ySayAA4HeroVG_AA0D5ErrorOSgtctF",
+          "mangledName": "$s14DragonBall_Xib12NetworkModelC9getHeroes4name10completionySS_ySayAA4HeroVG_AA0D5ErrorOSgtctF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14DragonBall_Xib12NetworkModelC",
+      "mangledName": "$s14DragonBall_Xib12NetworkModelC",
+      "moduleName": "DragonBall_Xib",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DetailViewController",
+      "printedName": "DetailViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "imageView",
+          "printedName": "imageView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)imageView",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)imageView",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setImageView:",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "nameLabel",
+          "printedName": "nameLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)nameLabel",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)nameLabel",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setNameLabel:",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvM",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "descriptionTextView",
+          "printedName": "descriptionTextView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITextView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)descriptionTextView",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)descriptionTextView",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setDescriptionTextView:",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvs",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvM",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "hero",
+          "printedName": "hero",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "DragonBall_Xib.Hero?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hero",
+                  "printedName": "DragonBall_Xib.Hero",
+                  "usr": "s:14DragonBall_Xib4HeroV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib20DetailViewControllerC4hero33_D1A07B010941318283F3B1E18F347F12LLAA4HeroVSgvp",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC4hero33_D1A07B010941318283F3B1E18F347F12LLAA4HeroVSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)viewDidLoad",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC11viewDidLoadyyF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "set",
+          "printedName": "set(model:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hero",
+              "printedName": "DragonBall_Xib.Hero",
+              "usr": "s:14DragonBall_Xib4HeroV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14DragonBall_Xib20DetailViewControllerC3set5modelyAA4HeroV_tF",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC3set5modelyAA4HeroV_tF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DetailViewController",
+              "printedName": "DragonBall_Xib.DetailViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "DragonBall_Xib.DetailViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DetailViewController",
+                  "printedName": "DragonBall_Xib.DetailViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)initWithCoder:",
+          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController",
+      "mangledName": "$s14DragonBall_Xib20DetailViewControllerC",
+      "moduleName": "DragonBall_Xib",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Hero",
+      "printedName": "Hero",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib4HeroV2idSSvp",
+          "mangledName": "$s14DragonBall_Xib4HeroV2idSSvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib4HeroV2idSSvg",
+              "mangledName": "$s14DragonBall_Xib4HeroV2idSSvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib4HeroV4nameSSvp",
+          "mangledName": "$s14DragonBall_Xib4HeroV4nameSSvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib4HeroV4nameSSvg",
+              "mangledName": "$s14DragonBall_Xib4HeroV4nameSSvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib4HeroV11descriptionSSvp",
+          "mangledName": "$s14DragonBall_Xib4HeroV11descriptionSSvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib4HeroV11descriptionSSvg",
+              "mangledName": "$s14DragonBall_Xib4HeroV11descriptionSSvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "photo",
+          "printedName": "photo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib4HeroV5photo10Foundation3URLVvp",
+          "mangledName": "$s14DragonBall_Xib4HeroV5photo10Foundation3URLVvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib4HeroV5photo10Foundation3URLVvg",
+              "mangledName": "$s14DragonBall_Xib4HeroV5photo10Foundation3URLVvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "favorite",
+          "printedName": "favorite",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib4HeroV8favoriteSbvp",
+          "mangledName": "$s14DragonBall_Xib4HeroV8favoriteSbvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib4HeroV8favoriteSbvg",
+              "mangledName": "$s14DragonBall_Xib4HeroV8favoriteSbvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(id:name:description:photo:favorite:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Hero",
+              "printedName": "DragonBall_Xib.Hero",
+              "usr": "s:14DragonBall_Xib4HeroV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14DragonBall_Xib4HeroV2id4name11description5photo8favoriteACSS_S2S10Foundation3URLVSbtcfc",
+          "mangledName": "$s14DragonBall_Xib4HeroV2id4name11description5photo8favoriteACSS_S2S10Foundation3URLVSbtcfc",
+          "moduleName": "DragonBall_Xib",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Hero",
+              "printedName": "DragonBall_Xib.Hero",
+              "usr": "s:14DragonBall_Xib4HeroV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14DragonBall_Xib4HeroV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s14DragonBall_Xib4HeroV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "DragonBall_Xib",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14DragonBall_Xib4HeroV",
+      "mangledName": "$s14DragonBall_Xib4HeroV",
+      "moduleName": "DragonBall_Xib",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
         }
       ]
     },
@@ -482,6 +3658,16 @@
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
         }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "DragonBall_Xib",
+      "declAttributes": [
+        "RawDocComment"
       ]
     },
     {
@@ -901,6 +4087,118 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIImageView",
+      "printedName": "UIImageView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setImage",
+          "printedName": "setImage(url:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So11UIImageViewC14DragonBall_XibE8setImage3urly10Foundation3URLV_tF",
+          "mangledName": "$sSo11UIImageViewC14DragonBall_XibE8setImage3urly10Foundation3URLV_tF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIImageView",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIImageView",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Custom",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
         }
       ]
     }

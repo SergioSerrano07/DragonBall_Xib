@@ -22,9 +22,13 @@ class NetworkModel {
     
     var token: String?
     
-    static let shared = NetworkModel()
+    //static let shared = NetworkModel()
     
-    private init() {}
+    //private init() {}
+    
+    init(token: String? = nil) {
+        self.token = token
+    }
     
     func login(user: String, password: String, completion: @escaping (String?, NetworkError?) -> Void) {
         guard let url = URL(string: "https://vapor2022.herokuapp.com/api/auth/login") else {
@@ -66,8 +70,6 @@ class NetworkModel {
                 completion(nil, .tokenFormatError)
                 return
             }
-            
-            self.token = token
             
             completion(token, nil)
         }

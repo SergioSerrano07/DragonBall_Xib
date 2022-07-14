@@ -1,16 +1,19 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1657566261, 490432977]
-build_end_time: [1657566262, 224099159]
+build_start_time: [1657832173, 759921073]
+build_end_time: [1657832174, 329277038]
 inputs:
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/AppDelegate.swift": [1657362913, 38398265]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/DetailViewController.swift"
-  : [1657472822, 604357719]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/FirstViewController.swift": [1657565410, 737146854]
+  : [1657570101, 28937339]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/HeoresTableViewController.swift"
-  : [1657566261, 112502098]
+  : [1657829646, 16437768]
+  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/LogOutViewController.swift"
+  : [1657831135, 219094753]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/LoginViewController.swift": [1657832173, 437588691]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/HeroModel.swift": [1657564032, 513241052]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/NetworkModel.swift": [1657565840, 499288558]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657366488, 920948505]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/LocalDataModel.swift": [1657830751, 344840526]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/NetworkModel.swift": [1657829645, 983791351]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657832173, 421375751]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/UIImageViewExtension.swift": [1657473111, 9748935]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Views/TableView/TableViewCell.swift": [1657565983, 432904720]

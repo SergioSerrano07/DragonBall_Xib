@@ -30,7 +30,7 @@
 		</data>
 		<key>DetailViewController.nib</key>
 		<data>
-		rl0sVtczHq+mMuj6P+HCLzhQHCU=
+		V4IDFokiyWtkv2s84RUvLvet+f4=
 		</data>
 		<key>HeoresTableViewController.nib</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>PlugIns/DragonBall_XibTests.xctest/DragonBall_XibTests</key>
 		<data>
-		08bXB4NRAkgAoiDF+Mu0ameMtPQ=
+		TrrBt8FIuA/eqX3DOkoXE4uedOk=
 		</data>
 		<key>PlugIns/DragonBall_XibTests.xctest/Info.plist</key>
 		<data>
@@ -67,6 +67,10 @@
 		<key>TableViewCell.nib</key>
 		<data>
 		8OvDPwkh5anFmDw90MqiQ85h6Xg=
+		</data>
+		<key>TransformationsTableViewController.nib</key>
+		<data>
+		poq3xXBYXUiLXneDj+dPo5jp0V8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -117,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kqk023pgkNi+r3rGRcppy2gZox5MEEyCklvNjTowv/o=
+			RRl+hfvJQkpLZXY5RHONJ1/Bk9KCcLX9Z809z0ZGU/0=
 			</data>
 		</dict>
 		<key>HeoresTableViewController.nib</key>
@@ -145,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ls4LZev7Sf9Va/t7yv4167wuveorivZYwAG7Hdw9jVw=
+			CqfiTr3ruWZAN03ZixSQFnJceYjgOEjSCxZJJ/S4KUM=
 			</data>
 		</dict>
 		<key>PlugIns/DragonBall_XibTests.xctest/Info.plist</key>
@@ -167,6 +171,13 @@
 			<key>hash2</key>
 			<data>
 			Fh847o4E0fU8xe2HkrVl0IcbG9rT7vJgoX1HRiZDQT4=
+			</data>
+		</dict>
+		<key>TransformationsTableViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hsc4SSHsOCdxmgSfZPYye9RTeYH1r8Xd+qCTl368mIk=
 			</data>
 		</dict>
 	</dict>

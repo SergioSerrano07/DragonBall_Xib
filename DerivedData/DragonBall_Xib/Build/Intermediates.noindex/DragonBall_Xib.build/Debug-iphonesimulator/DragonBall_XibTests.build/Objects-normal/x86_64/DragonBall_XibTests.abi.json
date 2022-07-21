@@ -5,6 +5,746 @@
   "children": [
     {
       "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "DragonBall_XibTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "URLSessionMock",
+      "printedName": "URLSessionMock",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URLSessionMock",
+              "printedName": "DragonBall_XibTests.URLSessionMock",
+              "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionMock"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionMock(im)init",
+          "mangledName": "$s19DragonBall_XibTests14URLSessionMockCACycfc",
+          "moduleName": "DragonBall_XibTests",
+          "overriding": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "data",
+          "printedName": "data",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Data?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Data",
+                  "printedName": "Foundation.Data",
+                  "usr": "s:10Foundation4DataV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvp",
+          "mangledName": "$s19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvp",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvg",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvg",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Data?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Data",
+                      "printedName": "Foundation.Data",
+                      "usr": "s:10Foundation4DataV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvs",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvs",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvM",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC4data10Foundation4DataVSgvM",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "error",
+          "printedName": "error",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Error?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "Swift.Error",
+                  "usr": "s:s5ErrorP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvp",
+          "mangledName": "$s19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvp",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Error?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvg",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvg",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Error?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvs",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvs",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvM",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC5errors5Error_pSgvM",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "response",
+          "printedName": "response",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URLResponse?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URLResponse",
+                  "printedName": "Foundation.URLResponse",
+                  "usr": "c:objc(cs)NSURLResponse"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvp",
+          "mangledName": "$s19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvp",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URLResponse",
+                      "printedName": "Foundation.URLResponse",
+                      "usr": "c:objc(cs)NSURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvg",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvg",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URLResponse",
+                      "printedName": "Foundation.URLResponse",
+                      "usr": "c:objc(cs)NSURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvs",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvs",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvM",
+              "mangledName": "$s19DragonBall_XibTests14URLSessionMockC8responseSo13NSURLResponseCSgvM",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "dataTask",
+          "printedName": "dataTask(with:completionHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URLSessionDataTask",
+              "printedName": "Foundation.URLSessionDataTask",
+              "usr": "c:objc(cs)NSURLSessionDataTask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URLRequest",
+              "printedName": "Foundation.URLRequest",
+              "usr": "s:10Foundation10URLRequestV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.Data?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Data",
+                          "printedName": "Foundation.Data",
+                          "usr": "s:10Foundation4DataV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.URLResponse?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "URLResponse",
+                          "printedName": "Foundation.URLResponse",
+                          "usr": "c:objc(cs)NSURLResponse"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionMock(im)dataTaskWithRequest:completionHandler:",
+          "mangledName": "$s19DragonBall_XibTests14URLSessionMockC8dataTask4with17completionHandlerSo016NSURLSessionDataH0C10Foundation10URLRequestV_yAI0M0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+          "moduleName": "DragonBall_XibTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "dataTaskWithRequest:completionHandler:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionMock",
+      "mangledName": "$s19DragonBall_XibTests14URLSessionMockC",
+      "moduleName": "DragonBall_XibTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSURLSession",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Foundation.URLSession",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "URLSessionDataTaskMock",
+      "printedName": "URLSessionDataTaskMock",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "closure",
+          "printedName": "closure",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "() -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests22URLSessionDataTaskMockC7closure33_C4216EB99189D41C78969190181B3EB6LLyycvp",
+          "mangledName": "$s19DragonBall_XibTests22URLSessionDataTaskMockC7closure33_C4216EB99189D41C78969190181B3EB6LLyycvp",
+          "moduleName": "DragonBall_XibTests",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(closure:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URLSessionDataTaskMock",
+              "printedName": "DragonBall_XibTests.URLSessionDataTaskMock",
+              "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionDataTaskMock"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "() -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ]
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:19DragonBall_XibTests22URLSessionDataTaskMockC7closureACyyc_tcfc",
+          "mangledName": "$s19DragonBall_XibTests22URLSessionDataTaskMockC7closureACyyc_tcfc",
+          "moduleName": "DragonBall_XibTests",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "resume",
+          "printedName": "resume()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionDataTaskMock(im)resume",
+          "mangledName": "$s19DragonBall_XibTests22URLSessionDataTaskMockC6resumeyyF",
+          "moduleName": "DragonBall_XibTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "resume",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URLSessionDataTaskMock",
+              "printedName": "DragonBall_XibTests.URLSessionDataTaskMock",
+              "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionDataTaskMock"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionDataTaskMock(im)init",
+          "mangledName": "$s19DragonBall_XibTests22URLSessionDataTaskMockCACycfc",
+          "moduleName": "DragonBall_XibTests",
+          "deprecated": true,
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "7.0",
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionDataTaskMock",
+      "mangledName": "$s19DragonBall_XibTests22URLSessionDataTaskMockC",
+      "moduleName": "DragonBall_XibTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSURLSessionDataTask",
+      "superclassNames": [
+        "Foundation.URLSessionDataTask",
+        "Foundation.URLSessionTask",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
       "name": "XCTest",
       "printedName": "XCTest",
       "declKind": "Import",
@@ -25,9 +765,221 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "ErrorMock",
+      "printedName": "ErrorMock",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "mockCase",
+          "printedName": "mockCase",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(DragonBall_XibTests.ErrorMock.Type) -> DragonBall_XibTests.ErrorMock",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ErrorMock",
+                  "printedName": "DragonBall_XibTests.ErrorMock",
+                  "usr": "s:19DragonBall_XibTests9ErrorMockO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "DragonBall_XibTests.ErrorMock.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ErrorMock",
+                      "printedName": "DragonBall_XibTests.ErrorMock",
+                      "usr": "s:19DragonBall_XibTests9ErrorMockO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:19DragonBall_XibTests9ErrorMockO8mockCaseyA2CmF",
+          "mangledName": "$s19DragonBall_XibTests9ErrorMockO8mockCaseyA2CmF",
+          "moduleName": "DragonBall_XibTests",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Function",
+          "name": "__derived_enum_equals",
+          "printedName": "__derived_enum_equals(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ErrorMock",
+              "printedName": "DragonBall_XibTests.ErrorMock",
+              "usr": "s:19DragonBall_XibTests9ErrorMockO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ErrorMock",
+              "printedName": "DragonBall_XibTests.ErrorMock",
+              "usr": "s:19DragonBall_XibTests9ErrorMockO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19DragonBall_XibTests9ErrorMockO21__derived_enum_equalsySbAC_ACtFZ",
+          "mangledName": "$s19DragonBall_XibTests9ErrorMockO21__derived_enum_equalsySbAC_ACtFZ",
+          "moduleName": "DragonBall_XibTests",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Implements"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "hashValue",
+          "printedName": "hashValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests9ErrorMockO9hashValueSivp",
+          "mangledName": "$s19DragonBall_XibTests9ErrorMockO9hashValueSivp",
+          "moduleName": "DragonBall_XibTests",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:19DragonBall_XibTests9ErrorMockO9hashValueSivg",
+              "mangledName": "$s19DragonBall_XibTests9ErrorMockO9hashValueSivg",
+              "moduleName": "DragonBall_XibTests",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hash",
+          "printedName": "hash(into:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Hasher",
+              "printedName": "Swift.Hasher",
+              "paramValueOwnership": "InOut",
+              "usr": "s:s6HasherV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:19DragonBall_XibTests9ErrorMockO4hash4intoys6HasherVz_tF",
+          "mangledName": "$s19DragonBall_XibTests9ErrorMockO4hash4intoys6HasherVz_tF",
+          "moduleName": "DragonBall_XibTests",
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:19DragonBall_XibTests9ErrorMockO",
+      "mangledName": "$s19DragonBall_XibTests9ErrorMockO",
+      "moduleName": "DragonBall_XibTests",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Error",
+          "printedName": "Error",
+          "usr": "s:s5ErrorP",
+          "mangledName": "$ss5ErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
       "name": "NetworkModelTests",
       "printedName": "NetworkModelTests",
       "children": [
+        {
+          "kind": "Var",
+          "name": "urlSessionMock",
+          "printedName": "urlSessionMock",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "DragonBall_XibTests.URLSessionMock?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URLSessionMock",
+                  "printedName": "DragonBall_XibTests.URLSessionMock",
+                  "usr": "c:@M@DragonBall_XibTests@objc(cs)URLSessionMock"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:19DragonBall_XibTests012NetworkModelD0C14urlSessionMock33_9A953DEF9FC51E6978D60E73A6CA4824LLAA010URLSessionI0CSgvp",
+          "mangledName": "$s19DragonBall_XibTests012NetworkModelD0C14urlSessionMock33_9A953DEF9FC51E6978D60E73A6CA4824LLAA010URLSessionI0CSgvp",
+          "moduleName": "DragonBall_XibTests",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
         {
           "kind": "Var",
           "name": "sut",
@@ -58,7 +1010,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 0,
+          "fixedbinaryorder": 1,
           "hasStorage": true
         },
         {
@@ -111,6 +1063,69 @@
             "Override"
           ],
           "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLoginFailWithNoData",
+          "printedName": "testLoginFailWithNoData()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)NetworkModelTests(im)testLoginFailWithNoData",
+          "mangledName": "$s19DragonBall_XibTests012NetworkModelD0C23testLoginFailWithNoDatayyF",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLoginFailWithError",
+          "printedName": "testLoginFailWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)NetworkModelTests(im)testLoginFailWithError",
+          "mangledName": "$s19DragonBall_XibTests012NetworkModelD0C22testLoginFailWithErroryyF",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLoginSuccessWithMockToken",
+          "printedName": "testLoginSuccessWithMockToken()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_XibTests@objc(cs)NetworkModelTests(im)testLoginSuccessWithMockToken",
+          "mangledName": "$s19DragonBall_XibTests012NetworkModelD0C29testLoginSuccessWithMockTokenyyF",
+          "moduleName": "DragonBall_XibTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
           "funcSelfKind": "NonMutating"
         },
         {

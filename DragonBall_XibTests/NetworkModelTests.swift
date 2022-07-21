@@ -8,51 +8,88 @@
 import XCTest
 @testable import DragonBall_Xib
 
+enum ErrorMock: Error {
+    case mockCase
+}
+
 class NetworkModelTests: XCTestCase {
+    
+    private var urlSessionMock: URLSessionMock!
     
     private var sut: NetworkModel!
 
     override func setUpWithError() throws {
-        sut = NetworkModel()
+        urlSessionMock = URLSessionMock()
+        
+        sut = NetworkModel(urlSession: urlSessionMock)
     }
 
     override func tearDownWithError() throws {
         sut = nil
     }
-
-    func testLoginSuccess() throws {
-        let expectation = expectation(description: "Login Success")
-        var retrievedToken: String?
+    
+    func testLoginFailWithNoData() {
         var error: NetworkError?
         
-        sut.login(user: "sergioserrano14.ssn@gmail.com", password: "") { token, networkError in
-            retrievedToken = token
+        urlSessionMock.data = nil
+        
+        sut.login(user: "", password: "") { _, networkError in
             error = networkError
-            expectation.fulfill()
         }
-        
-        waitForExpectations(timeout: 5)
-        
-        XCTAssertNotNil(retrievedToken, "should have received a token")
-        XCTAssertNil(error, "should be no error")
-
+        XCTAssertEqual(error, .noData)
     }
     
-    func testLoginFail() throws {
-        let expectation = expectation(description: "Login Success")
-        var retrievedToken: String?
+    func testLoginFailWithError() {
         var error: NetworkError?
         
-        sut.login(user: "sergioserrano14.ssn", password: "Crypto-07") { token, networkError in
+        urlSessionMock.data = nil
+        urlSessionMock.error = ErrorMock.mockCase
+        
+        sut.login(user: "", password: "") { _, networkError in
+            error = networkError
+        }
+        XCTAssertEqual(error, .other)
+    }
+    
+    
+    func testLoginFailWithErrorCodeNil() {
+        var error: NetworkError?
+        
+        urlSessionMock.data = "TokenString".data(using: .utf8)!
+        urlSessionMock.response = nil
+        
+        sut.login(user: "", password: "") { _, networkError in
+            error = networkError
+        }
+        XCTAssertEqual(error, .errorCode(nil))
+    }
+    
+    func testLoginFailWithErrorCode() {
+        var error: NetworkError?
+        
+        urlSessionMock.data = "TokenString".data(using: .utf8)!
+        urlSessionMock.response = HTTPURLResponse(url: URL(string: "http")!, statusCode: 404, httpVersion: nil, headerFields: nil)
+        
+        sut.login(user: "", password: "") { _, networkError in
+            error = networkError
+        }
+        XCTAssertEqual(error, .errorCode(404))
+    }
+    
+    func testLoginSuccessWithMockToken() {
+        var error: NetworkError?
+        var retrievedToken: String?
+        
+        urlSessionMock.data = "TokenString".data(using: .utf8)!
+        urlSessionMock.response = HTTPURLResponse(url: URL(string: "http")!, statusCode: 200, httpVersion: nil, headerFields: nil)
+        
+        sut.login(user: "", password: "") { token, networkError in
             retrievedToken = token
             error = networkError
-            expectation.fulfill()
         }
-        
-        waitForExpectations(timeout: 5)
-        
-        XCTAssertNil(retrievedToken, "should have received a token")
-        XCTAssertNotNil(error, "should have received a token")
-
+        XCTAssertEqual(retrievedToken, "TokenString", "should have received a token")
+        XCTAssertNil(error, "There should be not error")
     }
+    
+    
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0AB61828886800009E5BAD /* TransformationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0AB61628886800009E5BAD /* TransformationsTableViewController.swift */; };
+		AA0AB61928886800009E5BAD /* TransformationsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0AB61728886800009E5BAD /* TransformationsTableViewController.xib */; };
+		AA0AB61B28886AFC009E5BAD /* TransformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0AB61A28886AFC009E5BAD /* TransformationModel.swift */; };
 		AA2348012880A0ED00F76D6A /* LocalDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */; };
 		AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2348042880A88C00F76D6A /* LogOutViewController.swift */; };
 		AA2348072880A88C00F76D6A /* LogOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2348052880A88C00F76D6A /* LogOutViewController.xib */; };
@@ -18,6 +21,7 @@
 		AA257A3B2879CAEA006222C4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A392879CAEA006222C4 /* TableViewCell.xib */; };
 		AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A3D2879D54C006222C4 /* DetailViewController.swift */; };
 		AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A3E2879D54C006222C4 /* DetailViewController.xib */; };
+		AA45E1252889CBA400B21EE9 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45E1242889CBA400B21EE9 /* URLSessionMock.swift */; };
 		AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367A287B312C00C41669 /* HeroModel.swift */; };
 		AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */; };
 		AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB542F287C97FE00C3A816 /* NetworkModel.swift */; };
@@ -40,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0AB61628886800009E5BAD /* TransformationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsTableViewController.swift; sourceTree = "<group>"; };
+		AA0AB61728886800009E5BAD /* TransformationsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationsTableViewController.xib; sourceTree = "<group>"; };
+		AA0AB61A28886AFC009E5BAD /* TransformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationModel.swift; sourceTree = "<group>"; };
 		AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModelTests.swift; sourceTree = "<group>"; };
 		AA2348042880A88C00F76D6A /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
 		AA2348052880A88C00F76D6A /* LogOutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogOutViewController.xib; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		AA257A392879CAEA006222C4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		AA257A3D2879D54C006222C4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AA257A3E2879D54C006222C4 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		AA45E1242889CBA400B21EE9 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
 		AAA3367A287B312C00C41669 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		AADB542F287C97FE00C3A816 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA3367A287B312C00C41669 /* HeroModel.swift */,
+				AA0AB61A28886AFC009E5BAD /* TransformationModel.swift */,
 				AADB542F287C97FE00C3A816 /* NetworkModel.swift */,
 				AA2348082880AE0700F76D6A /* LocalDataModel.swift */,
 			);
@@ -109,6 +118,7 @@
 				AAE8A9A32879935F005176FA /* LoginViewController.xib */,
 				AA257A352879CA68006222C4 /* HeoresTableViewController.xib */,
 				AA257A3E2879D54C006222C4 /* DetailViewController.xib */,
+				AA0AB61728886800009E5BAD /* TransformationsTableViewController.xib */,
 				AA2348052880A88C00F76D6A /* LogOutViewController.xib */,
 			);
 			path = Views;
@@ -120,6 +130,7 @@
 				AAE8A9A22879935F005176FA /* LoginViewController.swift */,
 				AA257A342879CA68006222C4 /* HeoresTableViewController.swift */,
 				AA257A3D2879D54C006222C4 /* DetailViewController.swift */,
+				AA0AB61628886800009E5BAD /* TransformationsTableViewController.swift */,
 				AA2348042880A88C00F76D6A /* LogOutViewController.swift */,
 			);
 			path = Controllers;
@@ -164,6 +175,7 @@
 			children = (
 				AA2348002880A0ED00F76D6A /* LocalDataModelTests.swift */,
 				AA23480A2880C0EB00F76D6A /* NetworkModelTests.swift */,
+				AA45E1242889CBA400B21EE9 /* URLSessionMock.swift */,
 			);
 			path = DragonBall_XibTests;
 			sourceTree = "<group>";
@@ -249,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0AB61928886800009E5BAD /* TransformationsTableViewController.xib in Resources */,
 				AA257A3B2879CAEA006222C4 /* TableViewCell.xib in Resources */,
 				AA257A402879D54C006222C4 /* DetailViewController.xib in Resources */,
 				AA257A372879CA68006222C4 /* HeoresTableViewController.xib in Resources */,
@@ -277,10 +290,12 @@
 				AAE8A9A42879935F005176FA /* LoginViewController.swift in Sources */,
 				AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */,
 				AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */,
+				AA0AB61828886800009E5BAD /* TransformationsTableViewController.swift in Sources */,
 				AA2348092880AE0700F76D6A /* LocalDataModel.swift in Sources */,
 				AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */,
 				AA257A3F2879D54C006222C4 /* DetailViewController.swift in Sources */,
 				AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */,
+				AA0AB61B28886AFC009E5BAD /* TransformationModel.swift in Sources */,
 				AAE8A97328799161005176FA /* AppDelegate.swift in Sources */,
 				AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */,
 				AAE8A97528799161005176FA /* SceneDelegate.swift in Sources */,
@@ -291,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA45E1252889CBA400B21EE9 /* URLSessionMock.swift in Sources */,
 				AA23480B2880C0EB00F76D6A /* NetworkModelTests.swift in Sources */,
 				AA2348012880A0ED00F76D6A /* LocalDataModelTests.swift in Sources */,
 			);

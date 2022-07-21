@@ -13,6 +13,7 @@
                 <outlet property="descriptionTextView" destination="Obm-3w-v5T" id="EvU-5B-D6U"/>
                 <outlet property="imageView" destination="QtG-G0-4PV" id="3qF-5b-dBt"/>
                 <outlet property="nameLabel" destination="4ea-p2-pdx" id="mjF-1h-mDj"/>
+                <outlet property="transformationButton" destination="W1c-KT-jhU" id="gS2-Tb-iE7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,7 +29,7 @@
                     </constraints>
                 </imageView>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Obm-3w-v5T">
-                    <rect key="frame" x="8" y="301" width="398" height="561"/>
+                    <rect key="frame" x="8" y="301" width="398" height="311"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <color key="textColor" systemColor="labelColor"/>
@@ -41,13 +42,25 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1c-KT-jhU">
+                    <rect key="frame" x="107" y="632" width="200" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="sia-Ey-zKu"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Transformations"/>
+                    <connections>
+                        <action selector="onButtonTransformationsTap:" destination="-1" eventType="touchUpInside" id="OgA-mp-9eW"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Obm-3w-v5T" secondAttribute="bottom" id="CPj-YH-4u2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Obm-3w-v5T" secondAttribute="bottom" constant="250" id="CPj-YH-4u2"/>
                 <constraint firstItem="QtG-G0-4PV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="G4T-27-jZU"/>
                 <constraint firstItem="QtG-G0-4PV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Lae-dR-Zar"/>
+                <constraint firstItem="W1c-KT-jhU" firstAttribute="centerX" secondItem="Obm-3w-v5T" secondAttribute="centerX" id="NmS-kh-Nrc"/>
                 <constraint firstItem="4ea-p2-pdx" firstAttribute="top" secondItem="QtG-G0-4PV" secondAttribute="bottom" constant="20" id="iis-aL-vJ4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4ea-p2-pdx" secondAttribute="trailing" constant="16" id="jru-au-Dq5"/>
                 <constraint firstItem="Obm-3w-v5T" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="kqp-L9-SQr"/>
@@ -55,8 +68,9 @@
                 <constraint firstItem="Obm-3w-v5T" firstAttribute="top" secondItem="4ea-p2-pdx" secondAttribute="bottom" constant="16" id="tQg-X6-r3T"/>
                 <constraint firstItem="4ea-p2-pdx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="uZb-Wh-n4M"/>
                 <constraint firstItem="QtG-G0-4PV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xiw-aS-fU4"/>
+                <constraint firstItem="W1c-KT-jhU" firstAttribute="top" secondItem="Obm-3w-v5T" secondAttribute="bottom" constant="20" id="yT3-y6-aEH"/>
             </constraints>
-            <point key="canvasLocation" x="-238" y="68"/>
+            <point key="canvasLocation" x="-239.13043478260872" y="67.633928571428569"/>
         </view>
     </objects>
     <resources>

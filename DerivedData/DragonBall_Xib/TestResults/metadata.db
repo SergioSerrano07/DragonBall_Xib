@@ -39,6 +39,14 @@
 					<real>0.40632998943328857</real>
 				</dict>
 			</dict>
+			<key>System Failures</key>
+			<dict>
+				<key>DragonBall_Xib encountered an error</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0</real>
+				</dict>
+			</dict>
 		</dict>
 	</dict>
 </dict>

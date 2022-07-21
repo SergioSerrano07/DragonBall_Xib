@@ -1,19 +1,22 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "593181a6aac12c1760d6610407350e5502c6a9fafa62c835ca0bac9ef0e76a03"
-build_start_time: [1657833729, 950934886]
-build_end_time: [1657833730, 776213169]
+build_start_time: [1658439789, 822163105]
+build_end_time: [1658439790, 686213016]
 inputs:
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/AppDelegate.swift": [1657362913, 38398265]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/DetailViewController.swift"
-  : [1657570101, 28937339]
+  : [1658439789, 282035589]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/HeoresTableViewController.swift"
-  : [1657829646, 16437768]
+  : [1658395903, 903107166]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/LogOutViewController.swift"
   : [1657831135, 219094753]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/LoginViewController.swift": [1657832173, 437588691]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/HeroModel.swift": [1657564032, 513241052]
+  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/TransformationsTableViewController.swift"
+  : [1658436020, 166336536]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/HeroModel.swift": [1658433003, 295486927]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/LocalDataModel.swift": [1657830751, 344840526]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/NetworkModel.swift": [1657829645, 983791351]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/NetworkModel.swift": [1658434250, 557955265]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Model/TransformationModel.swift": [1658437172, 688688278]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/SceneDelegate.swift": [1657832173, 421375751]
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/UIImageViewExtension.swift": [1657473111, 9748935]
-  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Views/TableView/TableViewCell.swift": [1657565983, 432904720]
+  "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Views/TableView/TableViewCell.swift": [1658434250, 510980844]

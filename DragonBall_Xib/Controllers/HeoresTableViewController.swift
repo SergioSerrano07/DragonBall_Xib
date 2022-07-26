@@ -57,7 +57,7 @@ class HeoresTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let nextVC = DetailViewController()
+        let nextVC = DetailsViewController()
         
         nextVC.set(model: heroes[indexPath.row])
         

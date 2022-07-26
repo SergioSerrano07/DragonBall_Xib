@@ -9,7 +9,7 @@ import UIKit
 
 class TransformationsTableViewController: UITableViewController {
         
-    let detailVC = DetailViewController()
+    let detailVC = DetailsViewController()
     private var transformation: [Transformation] = []
     
     override func viewDidLoad() {
@@ -53,12 +53,11 @@ class TransformationsTableViewController: UITableViewController {
         return cell
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let nextVC = DetailViewController()
-//
-//        nextVC.set(model: transformations[indexPath.row])
-//
-//        navigationController?.pushViewController(nextVC, animated: true)
-//    }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nextVC = DetailsViewController()
+        
+        nextVC.set(model: transformation[indexPath.row])
+        
+        navigationController?.pushViewController(nextVC, animated: true)
+    }  
 }

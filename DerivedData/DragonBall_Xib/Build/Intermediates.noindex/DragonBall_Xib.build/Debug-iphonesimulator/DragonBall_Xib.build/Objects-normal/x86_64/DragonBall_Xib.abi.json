@@ -2099,14 +2099,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "DetailViewController",
-              "printedName": "DragonBall_Xib.DetailViewController",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+              "name": "DetailsViewController",
+              "printedName": "DragonBall_Xib.DetailsViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController"
             }
           ],
           "declKind": "Var",
-          "usr": "s:14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA06DetailfG0Cvp",
-          "mangledName": "$s14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA06DetailfG0Cvp",
+          "usr": "s:14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA07DetailsfG0Cvp",
+          "mangledName": "$s14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA07DetailsfG0Cvp",
           "moduleName": "DragonBall_Xib",
           "declAttributes": [
             "Custom",
@@ -2125,14 +2125,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "DetailViewController",
-                  "printedName": "DragonBall_Xib.DetailViewController",
-                  "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+                  "name": "DetailsViewController",
+                  "printedName": "DragonBall_Xib.DetailsViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA06DetailfG0Cvg",
-              "mangledName": "$s14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA06DetailfG0Cvg",
+              "usr": "s:14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA07DetailsfG0Cvg",
+              "mangledName": "$s14DragonBall_Xib34TransformationsTableViewControllerC8detailVCAA07DetailsfG0Cvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "declAttributes": [
@@ -2341,6 +2341,44 @@
           "overriding": true,
           "isOpen": true,
           "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)TransformationsTableViewController(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s14DragonBall_Xib34TransformationsTableViewControllerC05tableF0_14didSelectRowAtySo07UITableF0C_10Foundation9IndexPathVtF",
+          "moduleName": "DragonBall_Xib",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
           "declAttributes": [
             "Dynamic",
             "ObjC",
@@ -3494,8 +3532,8 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "DetailViewController",
-      "printedName": "DetailViewController",
+      "name": "DetailsViewController",
+      "printedName": "DetailsViewController",
       "children": [
         {
           "kind": "Var",
@@ -3509,8 +3547,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)imageView",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvp",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(py)imageView",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC05imageE0So07UIImageE0CSgvp",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -3546,8 +3584,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)imageView",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvg",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)imageView",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC05imageE0So07UIImageE0CSgvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3582,8 +3620,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setImageView:",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvs",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)setImageView:",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC05imageE0So07UIImageE0CSgvs",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3604,8 +3642,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvM",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC05imageE0So07UIImageE0CSgvM",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC05imageE0So07UIImageE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC05imageE0So07UIImageE0CSgvM",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3625,8 +3663,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)nameLabel",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvp",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(py)nameLabel",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC9nameLabelSo7UILabelCSgvp",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -3662,8 +3700,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)nameLabel",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvg",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)nameLabel",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC9nameLabelSo7UILabelCSgvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3698,8 +3736,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setNameLabel:",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvs",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)setNameLabel:",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC9nameLabelSo7UILabelCSgvs",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3720,8 +3758,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvM",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC9nameLabelSo7UILabelCSgvM",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC9nameLabelSo7UILabelCSgvM",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC9nameLabelSo7UILabelCSgvM",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3741,8 +3779,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)descriptionTextView",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvp",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(py)descriptionTextView",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC015descriptionTextE0So06UITextE0CSgvp",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -3778,8 +3816,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)descriptionTextView",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvg",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)descriptionTextView",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC015descriptionTextE0So06UITextE0CSgvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3814,8 +3852,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setDescriptionTextView:",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvs",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)setDescriptionTextView:",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC015descriptionTextE0So06UITextE0CSgvs",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3836,8 +3874,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvM",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC015descriptionTextE0So06UITextE0CSgvM",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC015descriptionTextE0So06UITextE0CSgvM",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC015descriptionTextE0So06UITextE0CSgvM",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3857,8 +3895,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(py)transformationButton",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC20transformationButtonSo8UIButtonCSgvp",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(py)transformationButton",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC20transformationButtonSo8UIButtonCSgvp",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -3894,8 +3932,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)transformationButton",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC20transformationButtonSo8UIButtonCSgvg",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)transformationButton",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC20transformationButtonSo8UIButtonCSgvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3930,8 +3968,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)setTransformationButton:",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC20transformationButtonSo8UIButtonCSgvs",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)setTransformationButton:",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC20transformationButtonSo8UIButtonCSgvs",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3952,8 +3990,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC20transformationButtonSo8UIButtonCSgvM",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC20transformationButtonSo8UIButtonCSgvM",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC20transformationButtonSo8UIButtonCSgvM",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC20transformationButtonSo8UIButtonCSgvM",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -3982,8 +4020,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:14DragonBall_Xib20DetailViewControllerC4hero33_D1A07B010941318283F3B1E18F347F12LLAA4HeroVSgvp",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC4hero33_D1A07B010941318283F3B1E18F347F12LLAA4HeroVSgvp",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC4hero33_96C2FA72DBEAEB30A32E0AB7B692FDE4LLAA4HeroVSgvp",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC4hero33_96C2FA72DBEAEB30A32E0AB7B692FDE4LLAA4HeroVSgvp",
           "moduleName": "DragonBall_Xib",
           "isInternal": true,
           "declAttributes": [
@@ -3993,6 +4031,40 @@
             "AccessControl"
           ],
           "fixedbinaryorder": 4,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "transformations",
+          "printedName": "transformations",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "DragonBall_Xib.Transformation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Transformation",
+                  "printedName": "DragonBall_Xib.Transformation",
+                  "usr": "s:14DragonBall_Xib14TransformationV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC15transformations33_96C2FA72DBEAEB30A32E0AB7B692FDE4LLAA14TransformationVSgvp",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC15transformations33_96C2FA72DBEAEB30A32E0AB7B692FDE4LLAA14TransformationVSgvp",
+          "moduleName": "DragonBall_Xib",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
           "hasStorage": true
         },
         {
@@ -4016,8 +4088,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvp",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvp",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvp",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvp",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -4025,7 +4097,7 @@
             "HasInitialValue",
             "HasStorage"
           ],
-          "fixedbinaryorder": 5,
+          "fixedbinaryorder": 6,
           "hasStorage": true,
           "accessors": [
             {
@@ -4049,8 +4121,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvg",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvg",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvg",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvg",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -4082,8 +4154,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvs",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvs",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvs",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvs",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -4101,8 +4173,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvM",
-              "mangledName": "$s14DragonBall_Xib20DetailViewControllerC14transformationSayAA14TransformationVGvM",
+              "usr": "s:14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvM",
+              "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC14transformationSayAA14TransformationVGvM",
               "moduleName": "DragonBall_Xib",
               "implicit": true,
               "isOpen": true,
@@ -4122,8 +4194,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)viewDidLoad",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC11viewDidLoadyyF",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)viewDidLoad",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC11viewDidLoadyyF",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "isOpen": true,
@@ -4148,8 +4220,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:14DragonBall_Xib20DetailViewControllerC19showTransformationsyyF",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC19showTransformationsyyF",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC19showTransformationsyyF",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC19showTransformationsyyF",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -4169,8 +4241,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:14DragonBall_Xib20DetailViewControllerC27disableTransformationButtonyyF",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC27disableTransformationButtonyyF",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC27disableTransformationButtonyyF",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC27disableTransformationButtonyyF",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -4196,8 +4268,35 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:14DragonBall_Xib20DetailViewControllerC3set5modelyAA4HeroV_tF",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC3set5modelyAA4HeroV_tF",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC3set5modelyAA4HeroV_tF",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC3set5modelyAA4HeroV_tF",
+          "moduleName": "DragonBall_Xib",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "set",
+          "printedName": "set(model:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Transformation",
+              "printedName": "DragonBall_Xib.Transformation",
+              "usr": "s:14DragonBall_Xib14TransformationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14DragonBall_Xib21DetailsViewControllerC3set5modelyAA14TransformationV_tF",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC3set5modelyAA14TransformationV_tF",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -4222,8 +4321,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)onButtonTransformationsTap:",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC26onButtonTransformationsTapyyypF",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)onButtonTransformationsTap:",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC26onButtonTransformationsTapyyypF",
           "moduleName": "DragonBall_Xib",
           "isOpen": true,
           "declAttributes": [
@@ -4240,9 +4339,9 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "DetailViewController",
-              "printedName": "DragonBall_Xib.DetailViewController",
-              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+              "name": "DetailsViewController",
+              "printedName": "DragonBall_Xib.DetailsViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController"
             },
             {
               "kind": "TypeNominal",
@@ -4274,8 +4373,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)initWithNibName:bundle:",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "implicit": true,
@@ -4296,13 +4395,13 @@
             {
               "kind": "TypeNominal",
               "name": "Optional",
-              "printedName": "DragonBall_Xib.DetailViewController?",
+              "printedName": "DragonBall_Xib.DetailsViewController?",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "DetailViewController",
-                  "printedName": "DragonBall_Xib.DetailViewController",
-                  "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController"
+                  "name": "DetailsViewController",
+                  "printedName": "DragonBall_Xib.DetailsViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController"
                 }
               ],
               "usr": "s:Sq"
@@ -4315,8 +4414,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController(im)initWithCoder:",
-          "mangledName": "$s14DragonBall_Xib20DetailViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController(im)initWithCoder:",
+          "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC5coderACSgSo7NSCoderC_tcfc",
           "moduleName": "DragonBall_Xib",
           "overriding": true,
           "implicit": true,
@@ -4331,8 +4430,8 @@
         }
       ],
       "declKind": "Class",
-      "usr": "c:@M@DragonBall_Xib@objc(cs)DetailViewController",
-      "mangledName": "$s14DragonBall_Xib20DetailViewControllerC",
+      "usr": "c:@M@DragonBall_Xib@objc(cs)DetailsViewController",
+      "mangledName": "$s14DragonBall_Xib21DetailsViewControllerC",
       "moduleName": "DragonBall_Xib",
       "isOpen": true,
       "declAttributes": [

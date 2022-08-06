@@ -230,15 +230,17 @@ SWIFT_CLASS("_TtC14DragonBall_Xib11AppDelegate")
 @class UIImageView;
 @class UILabel;
 @class UITextView;
+@class UIButton;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC14DragonBall_Xib20DetailViewController")
-@interface DetailViewController : UIViewController
+SWIFT_CLASS("_TtC14DragonBall_Xib21DetailsViewController")
+@interface DetailsViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
 @property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified descriptionTextView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified transformationButton;
 - (void)viewDidLoad;
 - (IBAction)onButtonTransformationsTap:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -271,7 +273,6 @@ SWIFT_CLASS("_TtC14DragonBall_Xib20LogOutViewController")
 @end
 
 @class UITextField;
-@class UIButton;
 @class UIActivityIndicatorView;
 
 SWIFT_CLASS("_TtC14DragonBall_Xib19LoginViewController")
@@ -319,6 +320,7 @@ SWIFT_CLASS("_TtC14DragonBall_Xib34TransformationsTableViewController")
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

@@ -22,7 +22,6 @@
 		AA257A3F2879D54C006222C4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA257A3D2879D54C006222C4 /* DetailsViewController.swift */; };
 		AA257A402879D54C006222C4 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA257A3E2879D54C006222C4 /* DetailsViewController.xib */; };
 		AA45E1252889CBA400B21EE9 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45E1242889CBA400B21EE9 /* URLSessionMock.swift */; };
-		AA45E127288A01C600B21EE9 /* DetailTransformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45E126288A01C600B21EE9 /* DetailTransformationViewController.swift */; };
 		AAA3367B287B312C00C41669 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367A287B312C00C41669 /* HeroModel.swift */; };
 		AAA3367D287B39D000C41669 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */; };
 		AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB542F287C97FE00C3A816 /* NetworkModel.swift */; };
@@ -60,7 +59,6 @@
 		AA257A3D2879D54C006222C4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		AA257A3E2879D54C006222C4 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		AA45E1242889CBA400B21EE9 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
-		AA45E126288A01C600B21EE9 /* DetailTransformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransformationViewController.swift; sourceTree = "<group>"; };
 		AAA3367A287B312C00C41669 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		AAA3367C287B39D000C41669 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		AADB542F287C97FE00C3A816 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				AA257A342879CA68006222C4 /* HeoresTableViewController.swift */,
 				AA257A3D2879D54C006222C4 /* DetailsViewController.swift */,
 				AA0AB61628886800009E5BAD /* TransformationsTableViewController.swift */,
-				AA45E126288A01C600B21EE9 /* DetailTransformationViewController.swift */,
 				AA2348042880A88C00F76D6A /* LogOutViewController.swift */,
 			);
 			path = Controllers;
@@ -293,7 +290,6 @@
 				AAE8A9A42879935F005176FA /* LoginViewController.swift in Sources */,
 				AA257A3A2879CAEA006222C4 /* TableViewCell.swift in Sources */,
 				AA2348062880A88C00F76D6A /* LogOutViewController.swift in Sources */,
-				AA45E127288A01C600B21EE9 /* DetailTransformationViewController.swift in Sources */,
 				AA0AB61828886800009E5BAD /* TransformationsTableViewController.swift in Sources */,
 				AA2348092880AE0700F76D6A /* LocalDataModel.swift in Sources */,
 				AADB5430287C97FE00C3A816 /* NetworkModel.swift in Sources */,

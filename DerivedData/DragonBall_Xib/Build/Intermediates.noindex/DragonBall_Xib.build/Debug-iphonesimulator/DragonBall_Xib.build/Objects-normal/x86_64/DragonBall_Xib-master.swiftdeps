@@ -1,11 +1,9 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "593181a6aac12c1760d6610407350e5502c6a9fafa62c835ca0bac9ef0e76a03"
-build_start_time: [1658833648, 702723026]
-build_end_time: [1658833649, 503058910]
+build_start_time: [1658865731, 940105915]
+build_end_time: [1658865732, 683171987]
 inputs:
   "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/AppDelegate.swift": [1657362913, 38398265]
-  ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/DetailTransformationViewController.swift"
-  : [1658832781, 598674774]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/DetailsViewController.swift"
   : [1658833564, 184613704]
   ? "/Users/unlock/Documents/Workspace/KeepCoding/Fundamentos iOS/DragonBall_Xib/DragonBall_Xib/Controllers/HeoresTableViewController.swift"

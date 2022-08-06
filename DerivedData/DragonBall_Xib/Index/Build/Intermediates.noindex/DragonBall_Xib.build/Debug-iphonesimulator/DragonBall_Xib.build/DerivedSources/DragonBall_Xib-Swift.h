@@ -282,7 +282,6 @@ SWIFT_CLASS("_TtC14DragonBall_Xib19LoginViewController")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
 @property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified activityIndicator;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
 - (IBAction)onLoginTap:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

@@ -18,13 +18,6 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-
-        if let token = LocalDataModel.getToken() {
-            self.presentVC()
-        }
-    }
-
     @IBAction func onLoginTap (_ sender: Any) {
         let model = NetworkModel()
         let user = userTextField.text ?? ""

@@ -34,7 +34,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5FF4D8CF-7321-4202-BE2B-38DF95B493C9</string>
 		</dict>
-		<key>8DA4B904-B5F9-4B46-A714-B2533F9EDC49</key>
+		<key>D370B3FF-44D5-4BE0-AD72-F63DFB760607</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>8DA4B904-B5F9-4B46-A714-B2533F9EDC49.xcactivitylog</string>
+			<string>D370B3FF-44D5-4BE0-AD72-F63DFB760607.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>DragonBall_Xib-ebkuwxfxjvbrscdlcyckqskjwjwh</string>
 			<key>timeStartedRecording</key>
-			<real>681477744.17773294</real>
+			<real>681478932.31577694</real>
 			<key>timeStoppedRecording</key>
-			<real>681477746.61622095</real>
+			<real>681478933.11908495</real>
 			<key>title</key>
 			<string>Build target DragonBall_Xib</string>
 			<key>uniqueIdentifier</key>
-			<string>8DA4B904-B5F9-4B46-A714-B2533F9EDC49</string>
+			<string>D370B3FF-44D5-4BE0-AD72-F63DFB760607</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

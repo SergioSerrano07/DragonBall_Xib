@@ -1015,38 +1015,6 @@
         },
         {
           "kind": "Function",
-          "name": "viewDidAppear",
-          "printedName": "viewDidAppear(_:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Bool",
-              "printedName": "Swift.Bool",
-              "usr": "s:Sb"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@M@DragonBall_Xib@objc(cs)LoginViewController(im)viewDidAppear:",
-          "mangledName": "$s14DragonBall_Xib19LoginViewControllerC13viewDidAppearyySbF",
-          "moduleName": "DragonBall_Xib",
-          "overriding": true,
-          "isOpen": true,
-          "objc_name": "viewDidAppear:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
           "name": "onLoginTap",
           "printedName": "onLoginTap(_:)",
           "children": [
@@ -5738,6 +5706,56 @@
               "implicit": true,
               "isOpen": true,
               "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "loginViewController",
+          "printedName": "loginViewController",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LoginViewController",
+              "printedName": "DragonBall_Xib.LoginViewController",
+              "usr": "c:@M@DragonBall_Xib@objc(cs)LoginViewController"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14DragonBall_Xib13SceneDelegateC19loginViewControllerAA05LogingH0Cvp",
+          "mangledName": "$s14DragonBall_Xib13SceneDelegateC19loginViewControllerAA05LogingH0Cvp",
+          "moduleName": "DragonBall_Xib",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "LoginViewController",
+                  "printedName": "DragonBall_Xib.LoginViewController",
+                  "usr": "c:@M@DragonBall_Xib@objc(cs)LoginViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14DragonBall_Xib13SceneDelegateC19loginViewControllerAA05LogingH0Cvg",
+              "mangledName": "$s14DragonBall_Xib13SceneDelegateC19loginViewControllerAA05LogingH0Cvg",
+              "moduleName": "DragonBall_Xib",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
             }
           ]
         },

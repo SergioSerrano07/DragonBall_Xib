@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    let loginViewController = LoginViewController()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -25,6 +26,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
+        
+        if let token = LocalDataModel.getToken() {
+            loginViewController.presentVC()
+        }
         
         self.window = window
     }
